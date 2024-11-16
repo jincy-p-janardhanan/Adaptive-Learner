@@ -1,11 +1,11 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, send_file
 import json
 import os
 
 app = Flask(__name__)
 
 # Load the JSON file if it exists, otherwise create a default structure
-JSON_FILE = "static/dataset.json"
+JSON_FILE = "dataset.json"
 
 if os.path.exists(JSON_FILE):
     with open(JSON_FILE, "r") as file:
@@ -99,6 +99,12 @@ def update_entry():
 
     return jsonify({"success": False, "message": "Chapter not found!"}), 404
 
+@app.route('/dataset', methods=['GET'])
+def download_dataset():
+    try:
+        return send_file(JSON_FILE, as_attachment=True)
+    except FileNotFoundError:
+        return jsonify({"message": "Dataset not found!"}), 404
 
 if __name__ == "__main__":
     app.run(debug=True)

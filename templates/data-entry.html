@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Edit Chapter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding-left: 25px;
+            padding-right: 25px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        #search {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding-left: 25px;
+            padding-right: 25px;
+            margin: auto;
+        }
+
+        form>div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: calc(100% - 10px);
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .dynamic-group {
+            margin-bottom: 10px;
+        }
+
+        .dynamic-group input,
+        .dynamic-group textarea {
+            margin-bottom: 8px;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: flex-start;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        #message {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('entry-form');
+            const messageBox = document.getElementById('message');
+
+            const searchInput = document.getElementById('search-query');
+
+            searchInput.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent default form submission
+                    searchChapter();
+                }
+            });
+
+            form.addEventListener('submit', async (event) => {
+                event.preventDefault();
+
+                const chapterId = document.getElementById('id')?.value || null; // Optional hidden field for chapter ID
+
+                const formData = new FormData(form);
+                formData.append('id', chapterId);
+
+                // Prepare data for JSON
+                const newWords = [];
+                document.querySelectorAll('.new-word-group').forEach(group => {
+                    const word = group.querySelector('.word').value;
+                    const meaning = group.querySelector('.meaning').value;
+                    if (word) newWords.push({ word, meaning });
+                });
+
+                const exercises = [];
+                document.querySelectorAll('.exercise-group').forEach(group => {
+                    const difficulty = group.querySelector('.difficulty').value;
+                    const question = group.querySelector('.question').value;
+                    const answer = group.querySelector('.answer').value;
+                    if (question) exercises.push({ difficulty, question, answer });
+                });
+
+                // Add these to the formData
+                formData.append('new_words', JSON.stringify(newWords));
+                formData.append('exercises', JSON.stringify(exercises));
+
+
+
+                const endpoint = chapterId ? '/update_entry' : '/add_entry'; // Decide endpoint based on chapter ID
+
+                try {
+                    const response = await fetch(endpoint, {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const result = await response.json();
+                    if (result.success) {
+                        messageBox.textContent = result.message;
+                        messageBox.style.color = 'green';
+                        form.reset();
+                        document.querySelectorAll('.new-word-group, .exercise-group').forEach(el => el.remove());
+                    } else {
+                        throw new Error(result.message);
+                    }
+                } catch (error) {
+                    messageBox.textContent = `Error: ${error.message}`;
+                    messageBox.style.color = 'red';
+                }
+            });
+
+        });
+
+        // Functions to add/remove new words and exercises dynamically
+        function addNewWord() {
+            const container = document.getElementById('new-words-container');
+            const div = document.createElement('div');
+            div.className = 'dynamic-group new-word-group';
+            div.innerHTML = `
+                <input type="text" class="word" placeholder="Word">
+                <input type="text" class="meaning" placeholder="Meaning">
+                <button type="button" onclick="this.parentElement.remove()">Remove</button>
+            `;
+            container.appendChild(div);
+            container.appendChild(document.getElementById('add-word-button')); // Place the button below
+        }
+
+        function addExercise() {
+            const container = document.getElementById('exercises-container');
+            const div = document.createElement('div');
+            div.className = 'dynamic-group exercise-group';
+            div.innerHTML = `
+                <input type="text" class="difficulty" placeholder="Difficulty">
+                <textarea class="question" placeholder="Question"></textarea>
+                <textarea class="answer" placeholder="Answer"></textarea>
+                <button type="button" onclick="this.parentElement.remove()">Remove</button>
+            `;
+            container.appendChild(div);
+            container.appendChild(document.getElementById('add-exercise-button')); // Place the button below
+        }
+
+        async function searchChapter() {
+            const query = document.getElementById('search-query').value.trim();
+
+            if (!query) {
+                alert('Please enter a search query.');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/get_chapter?query=${encodeURIComponent(query)}`);
+                const result = await response.json();
+
+                if (result.success) {
+                    populateForm(result.chapter);
+                    document.getElementById('message').textContent = 'Chapter loaded for editing!';
+                    document.getElementById('message').style.color = 'green';
+                } else {
+                    throw new Error(result.message);
+                }
+            } catch (error) {
+                document.getElementById('message').textContent = `${error.message}`;
+                document.getElementById('message').style.color = 'red';
+            }
+        }
+
+        function populateForm(chapter) {
+            document.getElementById('id').value = chapter.id || ''; // Set the hidden chapter ID
+            document.getElementById('difficulty').value = chapter.difficulty || '';
+            document.getElementById('type').value = chapter.type || '';
+            document.getElementById('title').value = chapter.title || '';
+            document.getElementById('prologue').value = chapter.prologue || '';
+            document.getElementById('content').value = chapter.content || '';
+
+            const newWordsContainer = document.getElementById('new-words-container');
+            const exercisesContainer = document.getElementById('exercises-container');
+
+            // Clear existing dynamic fields
+            newWordsContainer.querySelectorAll('.new-word-group').forEach(el => el.remove());
+            exercisesContainer.querySelectorAll('.exercise-group').forEach(el => el.remove());
+
+            // Populate new words
+            chapter.new_words.forEach(word => {
+                const div = document.createElement('div');
+                div.className = 'dynamic-group new-word-group';
+                div.innerHTML = `
+            <input type="text" class="word" placeholder="Word" value="${word.word}">
+            <input type="text" class="meaning" placeholder="Meaning" value="${word.meaning}">
+            <button type="button" onclick="this.parentElement.remove()">Remove</button>
+        `;
+                newWordsContainer.appendChild(div);
+            });
+
+            // Populate exercises
+            chapter.exercises.forEach(exercise => {
+                const div = document.createElement('div');
+                div.className = 'dynamic-group exercise-group';
+                div.innerHTML = `
+            <input type="text" class="difficulty" placeholder="Difficulty" value="${exercise.difficulty}">
+            <textarea class="question" placeholder="Question">${exercise.question}</textarea>
+            <textarea class="answer" placeholder="Answer">${exercise.answer}</textarea>
+            <button type="button" onclick="this.parentElement.remove()">Remove</button>
+        `;
+                exercisesContainer.appendChild(div);
+            });
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Add/Edit Chapter</h1>
+    <div id="search">
+        <label for="search-query">To edit a chapter, type chapter name or ID:</label>
+        <input type="text" id="search-query" placeholder="Enter ID or Title">
+        <button type="button" onclick="searchChapter()">Search</button>
+    </div>
+    <p id="message"></p>
+    <form id="entry-form">
+        <input type="hidden" id="id" name="id">
+        <div>
+            <label for="difficulty">Difficulty:</label>
+            <input type="number" id="difficulty" name="difficulty">
+        </div>
+        <div>
+            <label for="type">Type:</label>
+            <input type="text" id="type" name="type">
+        </div>
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+        </div>
+
+
+        <div>
+            <label for="prologue">Prologue:</label>
+            <textarea id="prologue" name="prologue"></textarea>
+        </div>
+        <div>
+            <label for="content">Content:</label>
+            <textarea id="content" name="content"></textarea>
+        </div>
+
+        <div id="new-words-container">
+            <h3>New Words</h3>
+            <div class="action-buttons">
+                <button type="button" id="add-word-button" onclick="addNewWord()">+ Add Word</button>
+            </div>
+        </div>
+
+        <div id="exercises-container">
+            <h3>Exercises</h3>
+            <div class="action-buttons">
+                <button type="button" id="add-exercise-button" onclick="addExercise()">+ Add Exercise</button>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

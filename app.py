@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Load the JSON file if it exists, otherwise create a default structure
-JSON_FILE = "dataset.json"
+JSON_FILE = "static/dataset.json"
 
 if os.path.exists(JSON_FILE):
     with open(JSON_FILE, "r") as file:

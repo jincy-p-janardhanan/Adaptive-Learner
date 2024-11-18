@@ -1,17 +1,39 @@
 from flask import Flask, request, render_template, jsonify, send_file
 import json
+import boto3
 import os
+from io import BytesIO
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
-# Load the JSON file if it exists, otherwise create a default structure
-JSON_FILE = "dataset.json"
+# S3 Configuration
+BUCKET_NAME = "adaptive-learner-bucket"
+JSON_FILE_KEY = "dataset.json"  # The key name of your JSON file in S3
 
-if os.path.exists(JSON_FILE):
-    with open(JSON_FILE, "r") as file:
-        data = json.load(file)
-else:
-    data = []
+# Initialize the S3 client
+s3_client = boto3.client('s3', region_name=os.getenv('AWS_REGION'), 
+                         aws_access_key_id=os.getenv('ACCESS_KEY_ID'), 
+                         aws_secret_access_key=os.getenv('SECRET_ACCESS_KEY'))
+
+# Load the JSON file from S3 if it exists, otherwise create a default structure
+def load_data_from_s3():
+    try:
+        response = s3_client.get_object(Bucket=BUCKET_NAME, Key=JSON_FILE_KEY)
+        data = json.load(response['Body'])
+        return data
+    except s3_client.exceptions.NoSuchKey:
+        # If file does not exist, return an empty list
+        return []
+
+def save_data_to_s3(data):
+    json_content = json.dumps(data, indent=4)
+    s3_client.put_object(Bucket=BUCKET_NAME, Key=JSON_FILE_KEY, Body=json_content, ContentType='application/json')
+
+# Initialize the data
+data = load_data_from_s3()
 
 @app.route('/')
 def index():
@@ -44,9 +66,8 @@ def add_entry():
     }
     data.append(new_entry)
 
-    # Save to JSON file
-    with open(JSON_FILE, "w") as file:
-        json.dump(data, file, indent=4)
+    # Save to JSON file on S3
+    save_data_to_s3(data)
 
     return jsonify({"success": True, "message": "Entry added successfully!"})
 
@@ -91,9 +112,8 @@ def update_entry():
                 "exercises": exercises
             })
 
-            # Save to JSON file
-            with open(JSON_FILE, "w") as file:
-                json.dump(data, file, indent=4)
+            # Save to JSON file on S3
+            save_data_to_s3(data)
 
             return jsonify({"success": True, "message": "Chapter updated successfully!"}), 200
 
@@ -102,8 +122,13 @@ def update_entry():
 @app.route('/dataset', methods=['GET'])
 def download_dataset():
     try:
-        return send_file(JSON_FILE, as_attachment=True)
-    except FileNotFoundError:
+        # Download the JSON file from S3 to a local BytesIO object
+        response = s3_client.get_object(Bucket=BUCKET_NAME, Key=JSON_FILE_KEY)
+        json_data = response['Body'].read()
+
+        # Send the file as an attachment
+        return send_file(BytesIO(json_data), as_attachment=True, download_name=JSON_FILE_KEY, mimetype='application/json')
+    except s3_client.exceptions.NoSuchKey:
         return jsonify({"message": "Dataset not found!"}), 404
 
 if __name__ == "__main__":

@@ -1,104 +1,109 @@
-from datasets import load_dataset
+from datasets import load_dataset, Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 import torch
+import os
 
 # Load the dataset (assuming structured JSON dataset)
 dataset = load_dataset('json', data_files='dataset.json')
+print(len(dataset['train']))
 
 from huggingface_hub import login
-login(token = "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")
+login(token = os.getenv('HF_TOKEN'))
 
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B")
+tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
-# Tokenization function with enhanced prompts
-def tokenize_function(examples):
-    inputs = []
-    outputs = []
-
-    # Iterate over each example using a loop
-    for idx in range(len(examples['id'])):
-        # Access individual items using indices
-        item = {key: examples[key][idx] for key in examples.keys()}
+input_prompts = []
+output_responses = []
+for item in dataset["train"]:
+    input_prompt = f"<task> Generate a lesson for {item['type']} at difficulty level {item['difficulty']}.\n"
+    output_response = f"<lesson> Title: {item['title']} \n {item['type']}:\n{item['content']}"
         
-        # Prepare input prompt based on content type and difficulty
-        input_prompt = f"[TASK] Generate a {item['type']} lesson at  {item['difficulty']} level.\n"
-                
-        # Specify the main content
-        input_prompt += "[TITLE]: \n[PROLOGUE]: \n[CONTENT]"
-        output_response = f"\n [TITLE]: {item['title']} \n[PROLOGUE]: {item['prologue']} \n[CONTENT]: {item['content']}"
-        chapter_content = output_response
-        
-        # Generate 'New Words' section
-        input_prompt += f"\n[TASK] List new words with meanings for this content.\n"
-        for new_word in item['new_words']:
-            output_response += f"\n[NEW WORD]: {new_word['word']}\n[MEANING]: {new_word['meaning']}"
-        
-        # Exercise questions with difficulty levels
-        input_prompt += f"\n[TASK] Generate exercise questions for \n[CHAPTER-START]\n{chapter_content}\n[CHAPTER-END] at varying difficulty levels.\n"
-        for q in item['exercises']:
-            input_prompt += f"\n[DIFFICULTY]: {q['difficulty']}"
-            output_response += f"\n[QUESTION]: {q['question']}\n[ANSWER]: {q['answer']}"
-        
-        inputs.append(input_prompt)
-        outputs.append(output_response)
-
-    # Assign the EOS token to the pad token
-    tokenizer.pad_token = tokenizer.eos_token
+    for new_word in item['new_words']:
+        output_response += f"\n[NEW WORD]: {new_word['word']}" #\n[MEANING]: {new_word['meaning']}"
     
-    # Tokenize inputs and outputs
-    tokenized_inputs = tokenizer(inputs, padding="max_length", truncation=True)
-    tokenized_outputs = tokenizer(outputs, padding="max_length", truncation=True)
+    input_prompts.append(input_prompt)
+    output_responses.append(output_response)
     
-    # Return a dictionary, combining the tokenized inputs and outputs
-    return {
-        "input_ids": tokenized_inputs["input_ids"],
-        "attention_mask": tokenized_inputs["attention_mask"],
-        "labels": tokenized_outputs["input_ids"],  # Using input_ids as labels for outputs
-    }
+    for q in item['exercises']:
+        input_prompt = f"\n<task> Generate one {q['difficulty']} exercise question for the lesson.\n\n<lesson> Title: {item['title']} \n {item['type']}:\n{item['content']}"
+        output_response = f"\n<exercise> [QUESTION]: {q['question']}\n[ANSWER]: {q['answer']}"  
+        
+        input_prompts.append(input_prompt)
+        output_responses.append(output_response)
 
-# Apply tokenization to the dataset
-tokenized_dataset = dataset.map(tokenize_function, batched=True)
+tokenizer.pad_token = tokenizer.eos_token
+tokenized_inputs = tokenizer(
+    input_prompts, 
+    padding="max_length",  
+    truncation=True, 
+    max_length=1024,
+    return_attention_mask=True
+)
 
-# Load the LLaMA model
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B")
+tokenized_outputs = tokenizer(
+    output_responses,
+    padding="max_length",
+    truncation=True,
+    max_length=1024,
+    return_attention_mask=True
+)
 
-# Make sure you're using a GPU if available
+tokenized_dataset = Dataset.from_dict({ 
+    "input_ids": tokenized_inputs["input_ids"],
+    "attention_mask": tokenized_inputs["attention_mask"],
+    "labels": tokenized_outputs["input_ids"],  # Masked labels
+    "labels_attention_mask": tokenized_outputs["attention_mask"]
+})
+
+model = AutoModelForCausalLM.from_pretrained("gpt2")
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
+
 model.to(device)
 
-# Define training arguments
+for param in model.transformer.wte.parameters():
+    param.requires_grad = False
+for param in model.transformer.wpe.parameters():
+    param.requires_grad = False
+for param in model.transformer.h[:-2].parameters():
+    param.requires_grad = False
+
+# Freeze the output head
+#for param in model.lm_head.parameters():
+ #   param.requires_grad = False
+
+#model.new_head = nn.Linear(model.config.hidden_size, tokenizer.vocab_size)
+#model.new_head.requires_grad = True
+
 training_args = TrainingArguments(
-    output_dir="./fine-tuned-llama-enhanced",
-    num_train_epochs=5,
-    per_device_train_batch_size=1,  # Reduced batch size for large models
-    gradient_accumulation_steps=4,  # To handle memory with smaller batch sizes
-    save_steps=200,
+    output_dir="./fine-tuned-gpt2",
+    num_train_epochs=3,
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=2,
+    learning_rate=5e-8,
+    save_steps=50,
     save_total_limit=3,
-    learning_rate=2e-5,
     logging_dir="./logs",
-    logging_steps=20,
-    fp16=True,  # Mixed precision training for efficiency
+    logging_steps=5,
+    logging_strategy="steps",
+    report_to="tensorboard",
+    fp16=True,
+    max_grad_norm=1.0
 )
+
 
 # Trainer for fine-tuning with detailed prompts
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=tokenized_dataset['train'],
+    train_dataset=tokenized_dataset,
 )
 
 # Start fine-tuning
 trainer.train()
 
-# Example of generating content using the fine-tuned model
-content_prompt = "[TASK] Generate a prose content at Intermediate level.\n[CONTEXT]: The topic is about a morning adventure."
-input_ids = tokenizer(content_prompt, return_tensors="pt").input_ids.to(device)
-output = model.generate(input_ids, max_length=400, temperature=0.7)
-print(tokenizer.decode(output[0], skip_special_tokens=True))
+# Save the fine-tuned model and tokenizer
+model.save_pretrained("./fine-tuned-gpt2")
+tokenizer.save_pretrained("./fine-tuned-gpt2")
 
-# Example of generating new words with meanings
-new_words_prompt = "[TASK] List new words with meanings from a prose content at Intermediate level.\n[CONTENT]: The leaves rustled gently as the morning breeze swirled around Jamie."
-input_ids = tokenizer(new_words_prompt, return_tensors="pt").input_ids.to(device)
-output = model.generate(input_ids, max_length=150, temperature=0.7)
-print(tokenizer.decode(output[0], skip_special_tokens=True))

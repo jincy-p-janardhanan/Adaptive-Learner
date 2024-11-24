@@ -1,108 +1,5 @@
 [
     {
-        "id": 1,
-        "difficulty": 1,
-        "type": "poetry",
-        "title": "Wake up!",
-        "prologue": "",
-        "content": "Wake up! Wake up!\r\nIt\u2019s a lovely day.\r\nOh! Please get up\r\nAnd come and play.\r\nThe birds are singing in the trees,\r\nAnd you can hear the buzzing bees.\r\nWake up! Wake up!\r\nIt\u2019s a lovely day.\r\nOh! Please get up\r\nAnd come and play.\r\nIt\u2019s much too late to lie in bed,\r\nSo hurry up, you sleepy head.\r\nWash and dress\r\nAnd come on out \u2013\r\nEveryone is up and about.\r\nThe cow, the horses, the ducks\r\nAnd the sheep,\r\nThe tiniest chicken\r\nCheep-cheep-cheep\r\nWake up!",
-        "new_words": [
-            {
-                "word": "lovely",
-                "meaning": ""
-            },
-            {
-                "word": "buzzing",
-                "meaning": ""
-            },
-            {
-                "word": "sleepy head",
-                "meaning": ""
-            },
-            {
-                "word": "tiniest",
-                "meaning": ""
-            }
-        ],
-        "exercises": [
-            {
-                "difficulty": "easy",
-                "question": "What do you think birds say to each other in the morning?",
-                "answer": "Birds say \u2018Good morning\u2019 to each other in the morning."
-            },
-            {
-                "difficulty": "easy",
-                "question": "Who are already awake?",
-                "answer": "Birds, bees, horses, ducks, and sheep are already awake."
-            },
-            {
-                "difficulty": "easy",
-                "question": "Which creatures wake up in the morning before the child does?",
-                "answer": "The cows, birds, bees, ducks, horses, sheep and chickens wake up in the morning before the child does."
-            },
-            {
-                "difficulty": "medium",
-                "question": "Imagine that a cow, a horse, a duck and a chicken are meeting for a morning meal. What would they say to one another? Write about it.",
-                "answer": ""
-            },
-            {
-                "difficulty": "medium",
-                "question": "Connect the pairs of sentences below using and or but.\n(a) It is time to get up for school.\n(b) I want to sleep for some more time.",
-                "answer": "It is time to get up for school but I want to sleep for some more time."
-            },
-            {
-                "difficulty": "medium",
-                "question": "Connect the pairs of sentences below using and or but.\n(a) Sheila got some chocolates for her birthday.\n(b) She got some new clothes too.",
-                "answer": "Sheila got some chocolates and new clothes for her birthday."
-            },
-            {
-                "difficulty": "medium",
-                "question": "Connect the pairs of sentences below using and or but.\n(a) Everyone has gone to sleep.\n(b) I want to read my book.",
-                "answer": "Everyone has gone to sleep but I want to read my book."
-            },
-            {
-                "difficulty": "medium",
-                "question": "Connect the pairs of sentences below using and or but.\n(a) Raju plays cricket.\n(b) He also plays hockey.",
-                "answer": "Raju plays cricket and hockey."
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below. \ntiny, tinier, tiniest\n_______, later, _________",
-                "answer": "late, latest"
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest\nbig, __________, biggest",
-                "answer": "bigger"
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest\nround, ________, _________",
-                "answer": "rounder, roundest"
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest\nsleepy, sleepier, ________",
-                "answer": "sleepiest"
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest\nsmall, _______, ________ ",
-                "answer": "smaller, smallest"
-            },
-            {
-                "difficulty": "hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest \n___________, lovelier, loveliest",
-                "answer": "lovely"
-            },
-            {
-                "difficulty": "very hard",
-                "question": "Fill in the blanks according to the example given below.\ntiny, tinier, tiniest\ngood, ________, best",
-                "answer": "better"
-            }
-        ]
-    },
-    {
         "id": 2,
         "difficulty": 1,
         "type": "drama",
@@ -278,373 +175,1414 @@
         ]
     },
     {
-        "id": 4,
-        "difficulty": null,
-        "type": "",
-        "title": "The Little Fir Tree",
-        "prologue": "",
-        "content": "\nShetty the magician was returning home, when all of a sudden it began to rain. It rained heavily. Shetty looked around for shelter and saw a pretty little fir tree. He ran towards it as fast as he could.\nSoon the rain stopped. Shetty was happy that he did not get wet.\n\u201cThank you, you have been kind to me. I would like to reward you. Ask for four wishes and I will grant them,\u201d said the magician.\nThe sad fir tree had leaves like needles and no birds ever made their nests on it. So it said, \u201cI wish I had green leaves like my other friends.\u201d\nNext morning, its wish was granted. Soon a goat came along and ate all the green leaves.\n\u201cOh! dear,\u201d said the fir tree. \u201cI wish I had gold leaves as goats do not eat gold leaves.\u201d\nWhen the little fir tree woke up the next morning, it was surprised to see gold leaves.\n\u201cHow happy I am!\u201d it said. Two men came along and stole the gold leaves.\n\u201cI wish I had glass leaves instead. Men do not steal glass leaves.\u201d\nThe next day its glass leaves shone in the bright sun. \u201cHow happy I am!\u201d it said.\nAt night the wind blew whoo...oo...oo. All the glass leaves broke.\n\u201cOh dear!\u201d said the fir tree. I like my old needle-like leaves best, for goats do not eat them. No man can steal them. The wind will do them no harm.\u201d\nThe tree went to sleep. When it woke up the next morning, it had all its needles back again.\n\u201cOh! I never was so happy,\u201d said the little fir tree.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 5,
-        "difficulty": null,
-        "type": "",
-        "title": "Run!",
-        "prologue": "",
-        "content": "Away from the city\r\nAnd into the sun,\r\nOut to the country,\r\nRun!  Run!  Run!\r\n\r\nRun in the raindrops!\r\nRun \u2019neath the trees!\r\nRun little races\r\nWith each little breeze!\r\n\r\nRun down the hillside,\r\nRun up the lane;\r\nRun through the meadow,\r\nThen run back again!\r\n\r\nRun and be merry\r\nAll through the day!\r\nRun to the country,\r\nAway! Away!\r\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 6,
-        "difficulty": null,
-        "type": "",
-        "title": "Nasruddin's Aim",
-        "prologue": "",
-        "content": "\nOne day, Nasruddin was chatting with his friends.\nHe began to boast, \u201cNo one can match my skill in archery. I string the bow, take aim, and shoot the arrow... Wh...o...o...sh. The arrow is sure to hit right on target.\u201d\nHearing this, one of his friends immediately brought a bow and some arrows.\nGiving them to Nasruddin, he said, \u201cHere,  Nasruddin! Take this bow and arrows.\u201d\nThen pointing towards a target, he said, \u201cAim at that target and shoot an arrow.\u201d\nNasruddin held the bow in his hands, strung it, aimed at the target and shot an arrow.\nWh...o...o...o...o...\nThe arrow didn\u2019t hit the target! Instead, it fell down somewhere in the middle.\n\u201cHa...ha...ha...ha...\u201d\nHis friends started laughing. They said, \u201cHey, Nasruddin! Is this your best aim?\u201d\n\u201cOh, no! Not at all,\u201d said Nasruddin, defending himself.\n\u201cThis wasn\u2019t my aim. It was Azad\u2019s aim. I just showed you how Azad shoots an arrow.\u201d\nSaying this, Nasruddin picked up another arrow.\nOnce again, he strung the bow, aimed at the target, and shot the arrow.\nThis time, the arrow fell a little further from where it had fallen before.\nBut it certainly didn\u2019t hit the target!\nThey asked Nasruddin, \u201cAnd this must be how you shoot an arrow!\u201d\n\u201cOf course not,\u201d argued Nasruddin. \u201cEven this aim was not mine. It was the chief guard\u2019s aim.\u201d\nNow somebody remarked, \u201cWell... Now who\u2019s next on the list?\u201d\nHearing this, all the friends burst out laughing.\nNasruddin didn\u2019t say a word. He quietly picked up one more arrow. And again...\nAnd this time Nasruddin was really lucky! The arrow hit right on the target!\nEverybody stared at Nasruddin, their mouths agape in amazement.\nBefore anyone could say anything, Nasruddin said triumphantly, \u201cDid you see that? It was my aim!\u201d\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 7,
-        "difficulty": null,
-        "type": "",
-        "title": "Why?",
-        "prologue": "",
-        "content": "\nI know a curious little boy,\nWho is always asking \u201cWhy?\u201d\nWhy this, why that, why then, why now?\nWhy not, why by-the-by?\n\nHe wants to know why wood should swim,\nWhy lead and marble sink,\nWhy sun should shine and wind should blow\nAnd why we eat and drink.\n\nHe wants to know what makes the clouds\nAnd why they cross the sky,\nWhy sinks the sun behind the hills\nAnd why the flowers die.\n\nSome of these why\u2019s are not too hard\nTo answer if you\u2019ll try;\nOthers no one ever yet\nHas found the reason why.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 8,
-        "difficulty": null,
-        "type": "",
-        "title": "The Man in an Onion Bed",
-        "prologue": "",
-        "content": "\nI met a man in an onion bed.\nHe was crying so hard his eyes were red.\nAnd the tears rolled off the end of his nose\nAs he ate his way down the onion rows.\nHe ate and he cried, but for all his tears\nHe sang, \u201cSweet onions, oh my dears!\nI love you, I do and you love me,\nBut you make me as sad as a man can be.\u201d\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 9,
-        "difficulty": null,
-        "type": "",
-        "title": "Alice in Wonderland",
-        "prologue": "",
-        "content": "\nOne day, Alice was lying under a tree listening to her sister reading a story.\nSuddenly, she saw a white rabbit scamper by. He had pink eyes and was wearing a blue coat. He took out a big watch from his waistcoat pocket and as he hurried away, he said, \u201cOh dear, I will be too late!\u201d\nShe thought there was something very different about this rabbit. It could talk, it wore a red waistcoat, and it carried a watch. Alice was burning with curiosity and she followed the white rabbit.\nThe rabbit started running and Alice followed the rabbit. The rabbit suddenly popped down a large rabbit hole. Alice jumped into the rabbit hole too! The rabbit went down and down and down and down into the rabbit hole.\nAlice said aloud, \u201cWhere am I? How many miles down have I fallen? I must be getting somewhere near the center of the earth.\u201d She wondered, \u201cWill I slip through the earth to the other side?\u201d\nThump! Alice landed on a pile of dry leaves. She looked around quickly and suddenly saw the white rabbit again. It disappeared saying, \u201cOh, my ears and whiskers! How late it\u2019s getting!\u201d\nAlice stood up and saw a small door about fifteen inches high. It was too small for her to go through.\nShe saw a glass table with a golden key on it. She tried the little golden key in the lock and to her delight it fitted!\nAlice opened the door and looked into the loveliest garden she had ever seen! How she longed to be among those beds of bright flowers and those cool fountains! But she could not even get her head through the doorway.\n\u201cOh! How I wish, I could become smaller!\u201d she exclaimed loudly.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 10,
-        "difficulty": null,
-        "type": "",
-        "title": "Don\u2019t be Afraid of the Dark",
-        "prologue": "",
-        "content": "\nDon\u2019t be afraid of the dark, little one,\nThe earth must rest when the day is done.\nThe sun must be harsh, but moonlight \u2013 never!\nAnd those stars will be shining forever and ever,\n\nBe friends with the Night, there is nothing to fear,\nJust let your thoughts travel to friends far and near.\nBy day, it does seem that our troubles won\u2019t cease,\nBut at night, late at night, the world is at peace.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 11,
-        "difficulty": null,
-        "type": "",
-        "title": "Don\u2019t Give Up",
-        "prologue": "",
-        "content": "\nIf you keep on going\nAnd never stop,\nYou can keep on going,\nYou can make it to the top.\nLife is full of mountains,\nSome are big and some are small,\nBut if you don\u2019t give up\nYou can overcome them all.\nSo keep on going\nTry not to stop,\nWhen you keep on going\nYou can make it to the top.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 12,
-        "difficulty": null,
-        "type": "",
-        "title": "Helen Keller",
-        "prologue": "",
-        "content": "\nIt was the summer of 1880. A healthy baby girl was born in a small town in Alabama. Her parents loved her dearly and named her Helen Keller. But one day, the baby became ill and day after day, her fever stayed high. Everyone in the family tried to help her to get better, but all they could say was, \u201cThere is nothing more we can do. The baby may not live.\u201d\nHelen lived. But she was not the same after her illness. \u201cSomething is very wrong,\u201d her mother said. At last, they found out what was wrong. The child could not see or hear.\nThe baby grew into a little girl. Her parents felt sorry for her. Helen often cried and held on to her mother. \u201cGive the poor child what she wants,\u201d her father would say.\nThough Helen could not hear or see, she was a bright little girl. Some people thought Helen could not learn anything. Her mother did not agree. \u201cHelen is very smart,\u201d she said and added, \u201cthe problem is, how can we reach her? She is locked up inside herself.\u201d\nHelen began to grow wild. She would not let anyone comb her hair. Her clothes were always dirty. She was often angry. Sometimes she even lay on the floor and kicked her feet.\nHer parents thought that they should find a teacher for her. Miss Sullivan, a young teacher, agreed to help Helen to learn to see the world. Miss Sullivan gave Helen a doll. \u201cD_O_L_L\u201d spells doll. She spelt the word with her fingers into Helen\u2019s hand. She made the letters with special hand signs.\nHelen copied her teacher and spelt D_O_L_L too, but she did not understand what she was doing. Helen liked Miss Sullivan. She was strict but kind. She spelt a lot of words for Helen, on her hand, day and night, to make Helen understand.\nOne day, her teacher made Helen put her hand into running water. Then, she spelt W_A_T_E_R. Suddenly, Helen understood that W_A_T_E_R meant something wet, running over her hand. She understood that words were the most important things in the world. Words would tell her everything she wanted to know.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
         "id": 13,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 4,
+        "type": "Poem",
         "title": "Hiawatha",
-        "prologue": "",
-        "content": "\nHiawatha was a young Native American boy. He lived with his old grandmother, Nokomis, in a wigwam.\nNokomis taught Hiawatha about the wonders around them. She told him about the stars, the trees, the insects, the birds, the animals, and many other things.\nHiawatha grew up to love them all. He could talk to the birds and the animals, and they to him.\n\n\u201cThen the little Hiawatha\nLearned of every bird its language,\nLearned their names and all their secrets,\nHow they built their nests in Summer,\nWhere they hid themselves in Winter,\nTalked with them whene\u2019er he met them,\nCalled them \u2018Hiawatha\u2019s chickens.\u2019\n\nOf all beasts he learned the language,\nLearned their names and all their secrets,\nHow the beavers built their lodges,\nWhere the squirrels hid their acorns,\nHow the reindeer ran so swiftly,\nWhy the rabbit was so timid,\nTalked with them whene\u2019er he met them,\nCalled them \u2018Hiawatha\u2019s Brothers\u2019.\u201d\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 14,
-        "difficulty": null,
-        "type": "",
-        "title": "The Scholar\u2019s Mother Tongue",
-        "prologue": "",
-        "content": "\nA learned Pundit once visited the court of Akbar. He told the King and his courtiers that he had mastery over many different languages.\nThe Pundit could speak many languages fluently. He was so fluent that no one could find out what his mother tongue was. He challenged everybody at the court to name his mother tongue. When everyone failed, the challenge was  taken up by Birbal.\nThat night, Birbal went quietly to the Pundit\u2019s room when he was asleep. He whispered into the Pundit\u2019s ear and tickled it with a feather. The Pundit, half awake, cried out suddenly and shouted out words in his mother tongue.\nBirbal came to the court the next day and told everyone that the Pundit\u2019s mother tongue was Telugu. The Pundit was surprised and accepted the truth.\nKing Akbar then asked Birbal, \u201cHow did you find the truth?\u201d\nBirbal answered, \u201cIn times of difficulty, a person speaks only in his mother tongue.\u201d He also told the King how he had gone to the Pundit\u2019s room at night to find out the truth.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 15,
-        "difficulty": null,
-        "type": "",
-        "title": "A Watering Rhyme",
-        "prologue": "",
-        "content": "\nEarly in the morning,\nOr the evening hour,\nAre the times to water\nEvery kind of flower.\nWatering at noonday,\nWhen the sun is high,\nDoesn\u2019t help the flowers,\nOnly makes them die.\nAlso, when you water,\nWater at the roots;\nFlowers keep their mouths where\nWe should wear our boots.\nSoak the earth around them,\nThen through all the heat\nThe flowers will have water\nFor their thirsty \u2018feet\u2019!\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 16,
-        "difficulty": null,
-        "type": "",
-        "title": "The Giving Tree",
-        "prologue": "",
-        "content": "\nHow do you feel when you help someone?\nHow do you feel when you share your things with others?\nRead this play to know how a tree feels when it helps a boy.\nNarrator : Once there was a tree and it loved a little boy. Every day the boy would visit the tree and enjoy its company.\nTree : Come here, my boy. Come and climb up my trunk and swing from my branches.\nBoy : (swinging from branches) Ah, what fun!\nTree : Are you hungry? Eat my apples.\nBoy : (eating apples) How delicious!\nNarrator : When the boy was tired, he slept under the tree. The tree was happy to give its shade. But time went by. And the boy grew older and went away. The tree was often alone. After some years... One day the boy came to the tree and the tree was very happy.\nTree : Come, my boy, come and climb up my trunk and swing from my branches.\nBoy : I am too big to climb and play. I want to buy things and have fun. I want some money. Can you give me some money?\nTree : I\u2019m sorry but I have no money. I have only leaves and apples. You can pluck my apples and sell them in the market. Then you will have money.\nNarrator : The boy happily plucked the apples and carried them away. The tree was also happy. But the boy stayed away for a long time and the tree was sad. One day, the boy came back and the tree shook with joy.\nTree : Come, Boy, come and climb up my trunk. Swing from my branches, eat my apples, play in my shade and be happy.\nBoy : I am too busy to climb trees. I am getting married and I need a house for my wife and children. Can you give me a house?\nTree : I have no house but you may cut off my branches and build a house.\nNarrator : So the boy cut off the tree\u2019s branches and carried them away to build a house. The tree was very happy. But the boy stayed away for a long time and the tree was sad again. And when he came back after some years, the tree was so happy that it could hardly speak. Now, the boy was a young man.\nTree : Come, Boy, come. What can I do for you?\nYoung man : I am going on a business trip. I want a boat to take me away. Can you give me a boat?\nTree : All I have left is a trunk. Cut down my trunk and make a boat. Then you can sail away.\nNarrator : The young man cut the trunk of the tree and sailed away in a boat. The tree was left only with a stump. And after a long time the young man came back again. Now he was an old man but the tree recognised him.\nTree : I am sorry, friend, but I have nothing left to give you. My apples are gone.\nOld man : My teeth are too weak for apples.\nTree : My branches are gone. You cannot swing on them.\nOld man : I am too old to swing on branches.\nTree : My trunk is gone. You cannot climb.\nOld man : I am too tired to climb.\nTree : (sighing) I am sorry. I wish that I could give you something\u2026 but I have nothing left. I am just an old stump. I am sorry\u2026\nOld man : Dear tree, you have always given. But now I don\u2019t need much\u2014 just a quiet place to sit and rest.\nTree : (happily) Well, an old stump is good for sitting and resting on. Come, friend, sit down and rest.\nNarrator : The old man did. And the tree was still happy.\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "Hiawatha was a young Native American boy. He lived\r\nwith his old grandmother, Nokomis, in a wigwam. Nokomis taught Hiawatha about the wonders\r\naround them. She told him about the stars, the trees, the insects, the birds, the animals, and many other things.\r\nHiawatha grew up to love them all. He could talk to the birds and the animals, and they to him.",
+        "content": "\r\nHiawatha was a young Native American boy. He lived with his old grandmother, Nokomis, in a wigwam.\r\nNokomis taught Hiawatha about the wonders around them. She told him about the stars, the trees, the insects, the birds, the animals, and many other things.\r\nHiawatha grew up to love them all. He could talk to the birds and the animals, and they to him.\r\n\r\n\u201cThen the little Hiawatha\r\nLearned of every bird its language,\r\nLearned their names and all their secrets,\r\nHow they built their nests in Summer,\r\nWhere they hid themselves in Winter,\r\nTalked with them whene\u2019er he met them,\r\nCalled them \u2018Hiawatha\u2019s chickens.\u2019\r\n\r\nOf all beasts he learned the language,\r\nLearned their names and all their secrets,\r\nHow the beavers built their lodges,\r\nWhere the squirrels hid their acorns,\r\nHow the reindeer ran so swiftly,\r\nWhy the rabbit was so timid,\r\nTalked with them whene\u2019er he met them,\r\nCalled them \u2018Hiawatha\u2019s Brothers\u2019.\u201d\r\n",
+        "new_words": [
+            {
+                "word": "wigwam, ",
+                "meaning": ""
+            },
+            {
+                "word": "beavers, ",
+                "meaning": ""
+            },
+            {
+                "word": "acorns, ",
+                "meaning": ""
+            },
+            {
+                "word": "reindeer, ",
+                "meaning": ""
+            },
+            {
+                "word": "timid",
+                "meaning": ""
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "Easy",
+                "question": "Who was Hiawatha?",
+                "answer": "Hiawatha was a young Red Indian boy.\n\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Who was Nokomis?",
+                "answer": "Nokomis was Hiawatha\u2019s old grandmother."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "What did he learn about the birds?",
+                "answer": "He learnt the language of all the birds, their names, and all their secrets, how they build their nests in summer, and where they hide themselves during winter."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "What secrets did he learn about beasts?",
+                "answer": "He learnt the language of all the beasts. He learnt how the beavers build their lodges, where the squirrels hide their acorns, how the reindeer run so swiftly, and why the rabbit is so timid."
+            },
+            {
+                "difficulty": "Very Easy",
+                "question": "Hiawatha liked learning new languages?\n",
+                "answer": "Yes, Hiawatha liked learning new languages.\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Hiawatha called the birds \u2018chickens\u2019 and the beasts \u2018brothers\u2019. What do you think this shows?",
+                "answer": "This shows that Hiawatha was friendly with birds and animals.\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Do birds have secrets?\n\n",
+                "answer": "Yes, birds have their secrets."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "(d) Do you know the secret language of any animal? Tell the class about it.",
+                "answer": " No, I don\u2019t know the secret language of any animal."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Where do the following live ? \n(a) Birds live in ________________\n(b) Rabbits live in ________________\n(c) Beavers live in",
+                "answer": "(a) Birds live in nests.\n(b) Rabbits live in burrows.\n(c) Beavers live in lodges.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "Some words have similar sounds, but different meanings. Choose the correct word from the box and fill in the blanks.\n(a) The bird sits on a _____________. (bow, bough) \n(b) The squirrel has a long _____________. (tail, tale) \n(c) I have to leave at _____________. (too, two) \n(d) This sum is _____________. (right, write) \n(e) I can _____________ the bird's song. (hear, here) \n(f) Do you _____________ a secret? (no, know) \n(g) The King sits on the ____________. (thrown, throne) \n(h) He is our school ________________. (principal, principle)",
+                "answer": "(a) bough\n(b) tail\n(c) two\n(d) right\n(e) hear\n(f) know\n(g) throne\n(h) principal"
+            },
+            {
+                "difficulty": "Medium",
+                "question": "What did Hiawatha love?\n\n",
+                "answer": "Answer: Hiawatha loved to learn the language of all the birds and beasts and about the things around him such as the stars, the trees, the insects, the birds, the animals, and many other things.\n"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "Describe Hiawatha, his home, and friends in ten lines.\n",
+                "answer": "Answer: Hiawatha was a young Red Indian boy who lived with his old grandmother, Nokomis, in a Wigwam. Nokomis taught Hiawatha about the wonders around them. He also learnt to love birds and beasts. He used to talk to them whenever he met them. Birds and beasts also loved him and talked back to him. He learnt their languages, their names, and all their secrets. He called the birds \u2018Hiawatha\u2019s Chickens\u2019 and beasts \u2018Hiawatha\u2019s Brothers\u2019.\n"
+            }
+        ]
     },
     {
         "id": 17,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 2,
+        "type": "Poem",
         "title": "The Donkey",
         "prologue": "",
-        "content": "\nIf I had a donkey\nAnd he wouldn\u2019t go,\nWould I wallop him?\nNo, no, no.\nI\u2019d find a little hay\nAnd give him some corn,\nThen he\u2019d be the best donkey\nThat ever was born.\n",
+        "content": "\r\nIf I had a donkey\r\nAnd he wouldn\u2019t go,\r\nWould I wallop him?\r\nNo, no, no.\r\nI\u2019d find a little hay\r\nAnd give him some corn,\r\nThen he\u2019d be the best donkey\r\nThat ever was born.\r\n",
         "new_words": [],
-        "exercises": []
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "What work do these Milkman do?\n",
+                "answer": "A milkman sells milk.\n\n"
+            },
+            {
+                "difficulty": "",
+                "question": "What work do these men or grocer do?",
+                "answer": "A grocer sells vegetables.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "What work do these policeman do?",
+                "answer": "A policeman catches thieves.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "What work do these icecream man do?",
+                "answer": "An ice-cream man sells ice cream.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "What work do these wrestler do?",
+                "answer": "A wrestler lifts weights."
+            }
+        ]
     },
     {
         "id": 18,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 6,
+        "type": "Poem",
         "title": "Books",
         "prologue": "",
-        "content": "\n\u201cCome in, come in!\u201d\nSaid the library door;\nI opened it wide\nAnd saw books galore!\nTall skinny books\nUp high on the shelves;\nLittle fat books\nThat stood by themselves.\nI opened one up\nAnd sat down to look;\nThe pictures told stories!\nWhat a wonderful book!\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\n\u201cCome in, come in!\u201d\r\nSaid the library door;\r\nI opened it wide\r\nAnd saw books galore!\r\nTall skinny books\r\nUp high on the shelves;\r\nLittle fat books\r\nThat stood by themselves.\r\nI opened one up\r\nAnd sat down to look;\r\nThe pictures told stories!\r\nWhat a wonderful book!\r\n",
+        "new_words": [
+            {
+                "word": "library, ",
+                "meaning": ""
+            },
+            {
+                "word": "wide,",
+                "meaning": ""
+            },
+            {
+                "word": " galore, ",
+                "meaning": ""
+            },
+            {
+                "word": "skinny, ",
+                "meaning": ""
+            },
+            {
+                "word": "shelves,",
+                "meaning": ""
+            },
+            {
+                "word": " wonderful",
+                "meaning": ""
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "Medium",
+                "question": "What did the library door say?\n\n\n\n",
+                "answer": "Answer: The library door said, \u201cCome in, come in.\u201d\n"
+            },
+            {
+                "difficulty": "Medium",
+                "question": "What did the books in the library look like?\n\n\n",
+                "answer": "Answer: The books in the library looked tall and skinny."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Why did the child in the poem like looking at the pictures?\n",
+                "answer": "Answer: The child in the poem liked looking at the pictures because they told stories."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "What word signs have you seen or heard \u2013\nat home\nat the vegetable shop\nat the library\nat the doctor\u2019s place\nat the bus stop\nat the toy shop\n",
+                "answer": "at home: Welcome Home\nat the vegetable shop: No bargain\nat the library: Keep silence please\nat the doctor\u2019s place: Smoking is injurious to health\nat the bus stop: No parking here\nat the toy shop: Have fun\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Do you like reading storybooks?\n\n\n\n",
+                "answer": "Answer: Yes, I like reading interesting storybooks.\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "What kinds of stories do you like?\n\n",
+                "answer": "Answer: I like reading comic stories and thriller stories."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "The word galore means in great numbers. Do you also have a class library or a school library which keeps many books? Can you borrow books?\n",
+                "answer": "Answer: Yes, I have a school library which keeps many books, and yes, I can borrow books from the school library for a week\u2019s time."
+            }
+        ]
     },
     {
         "id": 19,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 4,
+        "type": "Poem",
         "title": "Going to buy a Book",
         "prologue": "",
-        "content": "\nOne day, grandfather gave my brother\nand me some money.\n\u201cGo and buy books,\u201d he said.\nWe were both very happy.\nWe both love to read.\nShould we go now?\nShould we go later?\nShould we go today?\nShould we go tomorrow?\nWe decided to go right now.\nShould we go to the big market?\nShould we go to the small shop?\nShould we go with somebody?\nShould we go alone?\nWe decided to go to the small shop,\njust the two of us.\nWe like the small bookshop.\nIt is small but it has many books.\nThe man in the shop likes us.\nHe always helps us.\nShould I buy a book with a lot of pictures?\nShould I buy a book with a lot of stories?\nShould I buy a thin book?\nI could not decide.\nWe did not know which book to buy.\nThe man in the shop smiled at us.\n\u201cRelax, come with me,\u201d he said.\n\u201cThese books are about animals.\nThose are about machines.\nThose over there are about wars.\nTake what you want.\u201d\nI picked some books.\nMy brother picked some books.\nI sat on the floor.\nHe sat on the chair.\nAnd we read and we read and we read.\nIt was very quiet.\nThere was no sound.\nOne hour passed.\nTwo hours passed.\nFinally, we knew which books to buy.\nThe man in the bookshop smiled at us.\nI got a fat book with many stories.\nMy brother got a big book with many pictures.\nWe ran home to our grandfather.\nWe climbed on his bed.\nHe put his arms around us and then\nWe read, and read, and read.\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nOne day, grandfather gave my brother\r\nand me some money.\r\n\u201cGo and buy books,\u201d he said.\r\nWe were both very happy.\r\nWe both love to read.\r\nShould we go now?\r\nShould we go later?\r\nShould we go today?\r\nShould we go tomorrow?\r\nWe decided to go right now.\r\nShould we go to the big market?\r\nShould we go to the small shop?\r\nShould we go with somebody?\r\nShould we go alone?\r\nWe decided to go to the small shop,\r\njust the two of us.\r\nWe like the small bookshop.\r\nIt is small but it has many books.\r\nThe man in the shop likes us.\r\nHe always helps us.\r\nShould I buy a book with a lot of pictures?\r\nShould I buy a book with a lot of stories?\r\nShould I buy a thin book?\r\nI could not decide.\r\nWe did not know which book to buy.\r\nThe man in the shop smiled at us.\r\n\u201cRelax, come with me,\u201d he said.\r\n\u201cThese books are about animals.\r\nThose are about machines.\r\nThose over there are about wars.\r\nTake what you want.\u201d\r\nI picked some books.\r\nMy brother picked some books.\r\nI sat on the floor.\r\nHe sat on the chair.\r\nAnd we read and we read and we read.\r\nIt was very quiet.\r\nThere was no sound.\r\nOne hour passed.\r\nTwo hours passed.\r\nFinally, we knew which books to buy.\r\nThe man in the bookshop smiled at us.\r\nI got a fat book with many stories.\r\nMy brother got a big book with many pictures.\r\nWe ran home to our grandfather.\r\nWe climbed on his bed.\r\nHe put his arms around us and then\r\nWe read, and read, and read.\r\n",
+        "new_words": [
+            {
+                "word": "alone, ",
+                "meaning": ""
+            },
+            {
+                "word": "bookshop, ",
+                "meaning": ""
+            },
+            {
+                "word": "machines,",
+                "meaning": ""
+            },
+            {
+                "word": " finally, ",
+                "meaning": ""
+            },
+            {
+                "word": "climbed",
+                "meaning": ""
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "Easy",
+                "question": "Why did grandfather give the children money?\n\n\n\n",
+                "answer": "Answer: The grandfather gave money to the children to buy books."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "\nWhere did they go to buy books?\n",
+                "answer": "Answer: They went to a small bookshop to buy books."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Did the girl buy a picture book?\n\n",
+                "answer": "Answer: No, the girl bought a fat book with many stories in it."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Is there a bookshop near your home? If there is, do you like to visit it?\n\n\n",
+                "answer": "Answer: Yes, there is a bookshop near my home. Yes, I like to visit it mostly on weekends when I get time."
+            },
+            {
+                "difficulty": "medium",
+                "question": "What are the different kinds of books in this bookshop or in any other bookshop you have seen? Tell the class.\n",
+                "answer": "Answer: There are many different types of books available in the bookshop, like comedy, thriller, horror, drama, poetry, etc."
+            },
+            {
+                "difficulty": "hard",
+                "question": "Look at these sentences in the story \u2013\n(a) Should we go to the big market?\n(b) Should we go to the small shop?\n(c) Should I buy a thin book?\nThe coloured words above are describing words. Now fill in more describing words into the passage below \u2013\nIt was a ______________ night. A _____________ girl sat up in bed listening to her mother tell a ___________ story. Her ________ eyes opened wide and she gave a ___________ smile. \u201cNow go to sleep, Paro,\u201d her mother closed the book. \u201c______________ dreams.\u201d\n",
+                "answer": "Answer:\nIt was a dark night. A small girl sat up in bed listening to her mother tell a short story. Her brown eyes opened wide and she gave a polite smile. \u201cNow go to sleep, Paro,\u201d her mother closed the book. \u201cSweet dreams.\u201d\n\n"
+            },
+            {
+                "difficulty": "medium",
+                "question": "Imagine that you will go to the bookshop tomorrow. What will you do there? Write five sentences beginning with \u2013\n(a) I shall __________________________________\n(b) I shall __________________________________\n(c) I shall __________________________________\n(d) I shall __________________________________\n(e) I shall __________________________________",
+                "answer": "Answer:\n(a) I shall select the books that I need.\n(b) I shall ask for children\u2019s books.\n(c) I shall search for books that interest me.\n(d) I shall buy books I like \u2013 comics, thrillers, and drama.\n(e) I shall pay for the books that I have selected."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "\nTina goes to her school library to borrow a book. Complete her dialogue with the librarian by using and or or in the blanks.\n\nTina: Ma\u2019am, I want to borrow a book.\nLibrarian: Do you want a storybook ________ a book of poems?\nTina: I want a storybook.\nLibrarian: Do you like stories about animals ________ adventure stories?\nTina: I like both.\nLibrarian: Go to the second cupboard. On the first shelf, you will find animal stories _______ on the second, adventure stories.\nTina (after selecting two books): Ma\u2019am, I want Black Beauty _______ Panchatantra Stories.\nLibrarian: You can have either Black Beauty _______ Panchatantra Stories.",
+                "answer": "Answer:\nTina: Ma\u2019am, I want to borrow a book.\nLibrarian: Do you want a storybook or a book of poems?\nTina: I want a storybook.\nLibrarian: Do you like stories about animals or adventure stories?\nTina: I like both.\nLibrarian: Go to the second cupboard. On the first shelf, you will find animal stories and on the second, adventure stories.\nTina (after selecting two books): Ma\u2019am, I want Black Beauty and Panchatantra Stories.\nLibrarian: You can have either Black Beauty or Panchatantra Stories."
+            }
+        ]
     },
     {
         "id": 20,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 9,
+        "type": "Poem",
         "title": "The Naughty Boy",
         "prologue": "",
-        "content": "\nThere was a naughty boy,\nAnd a naughty boy was he.\nHe ran away to Scotland,\nThe people there to see \u2013\n\nThen he found\nThat the ground\nWas as hard,\nThat a yard\nWas as long,\nThat a song\nWas as merry,\n\nThat a cherry\nWas as red,\nThat lead\nWas as weighty,\nThat fourscore\nWas as eighty,\nThat a door was as wooden\nAs in England\u2014\n\nSo he stood in his shoes\nAnd he wondered,\nHe wondered,\nHe stood in his shoes,\nAnd he wondered.\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nThere was a naughty boy,\r\nAnd a naughty boy was he.\r\nHe ran away to Scotland,\r\nThe people there to see \u2013\r\n\r\nThen he found\r\nThat the ground\r\nWas as hard,\r\nThat a yard\r\nWas as long,\r\nThat a song\r\nWas as merry,\r\n\r\nThat a cherry\r\nWas as red,\r\nThat lead\r\nWas as weighty,\r\nThat fourscore\r\nWas as eighty,\r\nThat a door was as wooden\r\nAs in England\u2014\r\n\r\nSo he stood in his shoes\r\nAnd he wondered,\r\nHe wondered,\r\nHe stood in his shoes,\r\nAnd he wondered.\r\n",
+        "new_words": [
+            {
+                "word": "naughty, ",
+                "meaning": ""
+            },
+            {
+                "word": "found, ",
+                "meaning": ""
+            },
+            {
+                "word": "ground, ",
+                "meaning": ""
+            },
+            {
+                "word": "merry, ",
+                "meaning": ""
+            },
+            {
+                "word": "cherry, ",
+                "meaning": ""
+            },
+            {
+                "word": "weighty, ",
+                "meaning": ""
+            },
+            {
+                "word": "wooden",
+                "meaning": ""
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "Easy",
+                "question": "From where did the naughty boy come?\n",
+                "answer": "Answer: The naughty boy came from England.\n\n"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Where did the naughty boy go?\n\n\n\n",
+                "answer": "Answer: The naughty boy went to Scotland."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Why did he go there?\n\n",
+                "answer": "Answer: The boy was interested in knowing people, so he went to see the people and things of Scotland.\n"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "What did the boy wonder about?\n",
+                "answer": "Answer: The boy wondered about the hard ground and long yards of Scotland. He was also amazed to see the red cherries and heavy lead."
+            },
+            {
+                "difficulty": "Hard",
+                "question": "What do you think the naughty boy would see in India?\n\n",
+                "answer": "Answer: The naughty boy would be excited to see the culture, tradition, and beautiful monuments in India.\n"
+            },
+            {
+                "difficulty": "medium",
+                "question": "Have you recently been to another place? What is it like? How is it different from your own place?\n\n",
+                "answer": "Answer: Yes, I have been to Goa. The blue waters all around look like heaven on earth. Compared to my city, the pleasant waters make us feel fresh all day."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Can you write six things that are made of wood?\n\n\n",
+                "answer": "Answer: Windows, table, shelves, cot, cupboards, bat"
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Look at the words given below and put them under the things that they are made of:\nWords: balloon, chair, table, eraser, shirt, pencil, toys, car, trousers, knife, scissors, cap\n\n\n",
+                "answer": "Metal: car, knife, scissors\nWood: chair, table, pencil\nRubber: balloon, eraser, toys\nCloth: shirt, trousers, cap\n"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "Who do you think is the naughtiest child in your class? Describe her/him in five lines.\n\n",
+                "answer": "Raj is the naughtiest boy in my class.\nHe\u2019s a very talkative boy.\nHe disturbs me and other students in the class.\nHe\u2019s very mischievous.\nHe fights with other classmates."
+            },
+            {
+                "difficulty": "Hard",
+                "question": "Write describing words here:\n\n(a) The peacock is a _____________ bird.\n(b) Pinocchio is a _____________ puppet.\n(c) I saw an _____________ quarrel.\n(d) Morning exercises make you ______________ .\n(e) A glass of milk makes your teeth ___________ .\n(f) Rita\u2019s ___________ behaviour annoyed me.\n",
+                "answer": "Answer:\n(a) The peacock is a beautiful bird.\n(b) Pinocchio is a naughty puppet.\n(c) I saw an ugly quarrel.\n(d) Morning exercises make you healthy.\n(e) A glass of milk makes your teeth strong.\n(f) Rita\u2019s rude behaviour annoyed me.\n"
+            }
+        ]
     },
     {
         "id": 21,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 7,
+        "type": "Story",
         "title": "Pinocchio",
         "prologue": "",
-        "content": "\nOnce upon a time, an old carpenter bought a very queer piece of wood. As he used his plane on it, he heard a little laughing voice say, \u201cStop! You\u2019re tickling me.\u201d\nThe old man was puzzled by the voice. He said, \u201cThis is a strange piece of wood. What shall I do with it? I think I\u2019ll make it into a puppet.\u201d\nHe set to work, and as the puppet boy took shape, the old man said, \u201cHe must have a name. I will call him Pinocchio.\u201d\nAs soon as he finished making the eyes, the carpenter was amazed to see them move. Before the mouth was made, it began to laugh. \u201cStop laughing!\u201d the old man said.\nIt did stop, but as soon as his back was turned, it put out its tongue. And its nose grew long.\nNo sooner were its hands ready than it snatched off the carpenter\u2019s wig and put it on its own head. And then Pinocchio\u2019s nose grew longer.\nWhen its legs and feet were made, they were too stiff to use, so the carpenter showed Pinocchio how to use them.\nNow, the carpenter decided to send Pinocchio to school. But there, Pinocchio did nothing but look for fun. He often ran away from school.\n\u201cWhy don\u2019t you go to school?\u201d asked the carpenter. Pinocchio told him a lie... and his nose started growing longer and longer.\nEach time he was rude to someone or told a lie, his nose grew longer. Finally, Pinocchio said, \u201cI\u2019m glad to be a real boy. I\u2019ll never lie again.\u201d\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 22,
-        "difficulty": null,
-        "type": "",
-        "title": "Ice-Cream Man",
-        "prologue": "",
-        "content": "\nWhen summer\u2019s in the city,\nAnd brick\u2019s a blaze of heat,\nThe Ice-cream Man with his little cart\nGoes trundling down the street.\nBeneath his round umbrella,\nOh, what a joyful sight,\nTo see him fill the cones with mounds\nOf cooling brown and white:\nVanilla, chocolate, strawberry,\nOr chilly things to drink\nFrom bottles full of frosty-fizz,\nGreen, orange, white, or pink.\nHis cart might be a flower bed,\nOf roses and sweet peas,\nThe way the children cluster round\nAs thick as honeybees.\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 23,
-        "difficulty": null,
-        "type": "",
-        "title": "Wonderful Waste!",
-        "prologue": "",
-        "content": "\nWaste can be quite useful !\nFind out for yourself from this story...\n\nOnce, the Maharaja of Travancore ordered a grand dinner in his palace. In the afternoon before the dinner, the Maharaja entered the kitchen to survey the dishes that had been prepared for the feast. \n\u201cWhat are you going to do with those vegetable scraps?\u201d he asked the cook, pointing to the basket of scraps near the cook. The cook replied, \u201cThey are waste. We will throw them away.\u201d\n\u201cYou cannot waste all these bits and pieces of vegetables. Find a way to use them,\u201d the Maharaja commanded sternly and walked away.\nThe cook was in a fix and kept staring at the vegetable scraps for some time. Suddenly, an idea flashed across his mind.\nHe took all the vegetable bits, washed them and cleaned them well.\nThen he cut them into long strips. He put them in a huge pot and placed it on the fire to cook. Next, he ground some fresh coconut, green chillies and garlic together. He added this paste and some salt to the cooking vegetables.\nA tempting smell started coming from the pot.\nNow he whipped some curd and added it to the curry.\nHe also poured a few spoonfuls of coconut oil and decorated the dish with curry leaves.\nLo and behold! The new dish was ready.\nThe cook served this new dish to the guests that evening.\nEveryone was eager to know the name of the new dish. The cook thought and thought. Then a name came to his mind. He named it avial (uh-vi-ul).\nAvial became famous all over Kerala and is now one of the dishes in a traditional Kerala feast. And imagine, it all came from a basket of waste!\n",
-        "new_words": [],
-        "exercises": []
-    },
-    {
-        "id": 24,
-        "difficulty": null,
-        "type": "",
-        "title": "Bamboo Curry",
-        "prologue": "",
-        "content": "\n1. One day the mother-in -law of a Santhal bridegroom cooked a special dish for him when he visited her.\n2. \u201cThis curry is delicious. What is it?\u201d The mother-in -law pointed at the bamboo door.\n3. Next morning, just as he was about to leave, he remembered that there was no bamboo in his village.\n4. So he removed the bamboo door and carrying it with him left for his home.\n5. On reaching his village, he told his wife, \u201cMake curry with this bamboo door.\u201d\n6. She was shocked. \u201cHow can I make curry out of a bamboo door?\u201d\n7. \u201cCome, I'll help you by chopping up the bamboo,\u201d he said.\n8. His wife boiled it and boiled it. Later when her husband tasted it he said, \u201cIt\u2019s too hard to eat. You don\u2019t know how to cook.\u201d\n9. His wife added more water and boiled it and boiled it. \u201cIt\u2019s still too hard. I can\u2019t eat it.\u201d\n10. The in-laws came to visit the young couple that evening. They all laughed at his foolishness. The mother-in-law said, \u201c Didn\u2019t you know the curry was made from bamboo shoot and not from a bamboo door?\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nOnce upon a time, an old carpenter bought a very queer piece of wood. As he used his plane on it, he heard a little laughing voice say, \u201cStop! You\u2019re tickling me.\u201d\r\nThe old man was puzzled by the voice. He said, \u201cThis is a strange piece of wood. What shall I do with it? I think I\u2019ll make it into a puppet.\u201d\r\nHe set to work, and as the puppet boy took shape, the old man said, \u201cHe must have a name. I will call him Pinocchio.\u201d\r\nAs soon as he finished making the eyes, the carpenter was amazed to see them move. Before the mouth was made, it began to laugh. \u201cStop laughing!\u201d the old man said.\r\nIt did stop, but as soon as his back was turned, it put out its tongue. And its nose grew long.\r\nNo sooner were its hands ready than it snatched off the carpenter\u2019s wig and put it on its own head. And then Pinocchio\u2019s nose grew longer.\r\nWhen its legs and feet were made, they were too stiff to use, so the carpenter showed Pinocchio how to use them.\r\nNow, the carpenter decided to send Pinocchio to school. But there, Pinocchio did nothing but look for fun. He often ran away from school.\r\n\u201cWhy don\u2019t you go to school?\u201d asked the carpenter. Pinocchio told him a lie... and his nose started growing longer and longer.\r\nEach time he was rude to someone or told a lie, his nose grew longer. Finally, Pinocchio said, \u201cI\u2019m glad to be a real boy. I\u2019ll never lie again.\u201d\r\n",
+        "new_words": [
+            {
+                "word": "carpenter, ",
+                "meaning": ""
+            },
+            {
+                "word": "queer, ",
+                "meaning": ""
+            },
+            {
+                "word": "plane,",
+                "meaning": ""
+            },
+            {
+                "word": " puzzled, ",
+                "meaning": ""
+            },
+            {
+                "word": "puppet, ",
+                "meaning": ""
+            },
+            {
+                "word": "took shape, ",
+                "meaning": ""
+            },
+            {
+                "word": "amazed, ",
+                "meaning": ""
+            },
+            {
+                "word": "finished, ",
+                "meaning": ""
+            },
+            {
+                "word": "stiff, ",
+                "meaning": ""
+            },
+            {
+                "word": "decided",
+                "meaning": ""
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "Easy",
+                "question": "What did the carpenter buy?\n\n\n",
+                "answer": "Answer: The carpenter bought a strange piece of wood."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "What did he make out of it?\n\n\n",
+                "answer": "Answer: The carpenter made a puppet boy out of it."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "What did he call his puppet?\n\n\n",
+                "answer": "Answer: He called his puppet Pinocchio."
+            },
+            {
+                "difficulty": "Medium",
+                "question": "What did Pinocchio say in the end?\n\n",
+                "answer": "Answer: In the end, Pinocchio said, \u201cI\u2019m glad to be a real boy. I\u2019ll never lie again.\u201d"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "How many words can you make from PINOCCHIO?\n\n\n",
+                "answer": "Answer:\nPIN, HOP, CHOP, HIP, INCH, NO, CHIP, CHIN, ON, NIP"
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Make opposites with the words dis__in__\n\n",
+                "answer": "Answer:\n\nrespect \u2192 disrespect\nown \u2192 disown\nable \u2192 disable\ncapable \u2192 incapable\nefficient \u2192 inefficient\nsecure \u2192 insecure"
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Make naming words by adding -ness, -ity, or -ty to the end of the words given below.\n",
+                "answer": "public \u2192 publicity\nstupid \u2192 stupidity\nforgive \u2192 forgiveness\nblind \u2192 blindness\nkind \u2192 kindness\ncruel \u2192 cruelty\npolite \u2192 politeness\nswift \u2192 swiftness\nmoral \u2192 morality\nsolid \u2192 solidity\n"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "Which of the following would you expect a carpenter to use at work?\nWords: bench, poker, plane, chisel, fork, spade, blotting paper, lawn-mower, telescope, pincers, jaw, scissors, hammer, map, nails, lathe, pencil, anvil.\n\n",
+                "answer": "Answer:\n\nplane\nchisel\nhammer\nnails\npencil\nspade\nbench\n"
+            },
+            {
+                "difficulty": "Hard",
+                "question": "Make sentences using some of the words given below.\n\nplane\nchisel\nhammer\nnails\npencil\nspade\nbench\n\n\n\n\n",
+                "answer": "Answer:\n\nSpade: A gardener uses a spade in the garden.\nPencil: The carpenter uses a pencil for markings.\nChisel: Chip out the plaster with a steel chisel.\nHammer: The carpenter uses his hammer to hit the nails into the wall.\nNails: Nails are made up of metal.\nAnvil: The blacksmith shaped a horseshoe on his anvil."
+            },
+            {
+                "difficulty": "Easy",
+                "question": "Add -er or -r to the doing words below to make new words.",
+                "answer": "Answer:\n\nstiff \u2192 stiffer\nstrange \u2192 stranger\nfight \u2192 fighter\ndance \u2192 dancer\njuggle \u2192 juggler\nride \u2192 rider\nspeak \u2192 speaker\nuse \u2192 user\nwrite \u2192 writer\njoke \u2192 joker\n"
+            },
+            {
+                "difficulty": "Medium",
+                "question": "Give another word from the story that means:",
+                "answer": "\ncompleted \u2192 finished\nsurprised \u2192 amazed\nstrange \u2192 queer\nmake up your mind \u2192 decided"
+            }
+        ]
     },
     {
         "id": 25,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Teamwork",
         "prologue": "",
-        "content": "\nTeamwork, teamwork,\nTogether we can make our dream work.\nThen we'll share the joy of what we've done,\n\nTeamwork, everyone!\nIt's fun to shoot the basketball through the hoop,\nBut if nobody passes then nobody shoots.\nAnd the relay race just can't go on,\nIf nobody wants to pass the baton.\nWe're the parts that make up the whole,\nAnd we've got our eyes on a common goal.\nSometimes it can be a big plus,\nWhen a you or a me becomes an us!\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nTeamwork, teamwork,\r\nTogether we can make our dream work.\r\nThen we'll share the joy of what we've done,\r\n\r\nTeamwork, everyone!\r\nIt's fun to shoot the basketball through the hoop,\r\nBut if nobody passes then nobody shoots.\r\nAnd the relay race just can't go on,\r\nIf nobody wants to pass the baton.\r\nWe're the parts that make up the whole,\r\nAnd we've got our eyes on a common goal.\r\nSometimes it can be a big plus,\r\nWhen a you or a me becomes an us!\r\n",
+        "new_words": [
+            {
+                "word": "teamwork",
+                "meaning": "combined effort of a group"
+            },
+            {
+                "word": "hoop",
+                "meaning": "wooden or iron ring trundled along by child"
+            },
+            {
+                "word": "passes",
+                "meaning": "move onward"
+            },
+            {
+                "word": "relay race",
+                "meaning": "race between teams of which each person does part of the distance"
+            },
+            {
+                "word": "baton",
+                "meaning": "short tube or stick carried in relay race"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "What is teamwork?",
+                "answer": "Teamwork is working together with a group of people to achieve a common goal.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "Name the games mentioned in the poem.",
+                "answer": "Basketball and relay race."
+            },
+            {
+                "difficulty": "",
+                "question": "How does a relay race work?",
+                "answer": "In a relay race, team members pass a baton from one runner to the next to complete the race together."
+            },
+            {
+                "difficulty": "",
+                "question": "Name some tasks which require teamwork.",
+                "answer": "Playing team sports like cricket, football, or basketball.\nOrganizing a school event.\nCleaning and decorating the house for a festival."
+            }
+        ]
     },
     {
         "id": 26,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story",
         "title": "Flying Together",
-        "prologue": "",
-        "content": "\nWhat are some of the things your parents and teachers tell you to do on time? ...Get up in the morning\u2026 do the homework\u2026. pack your school bag...\nWhat happened when you didn't do as they asked you to do?\n\nDeep in a forest stood a very tall tree. Its leafy branches spread out like strong arms.\nThis tree was the home of a flock of wild geese. They felt safe there. One of the geese was a wise old bird.\nHe noticed a small creeper at the foot of the tree.\nHe spoke to the other birds about it.\n\u201cDo you see that creeper?\u201d he said to them. \u201cLet us destroy it\u201d. \u201cWhy must we destroy it?\u201d asked the geese in surprise. \u201cIt is so small. What harm can it do?\u201d \u201cMy friends,\u201d replied the wise old bird, \u201cthat little creeper will soon grow. As it creeps up this tree, it will become thick and strong.\u201d \n\u201cWhat of that?\u201d asked the geese. \u201cWhat harm can a creeper do us?\u201d\n\u201cDon't you see?\u201d replied the wise bird, \u201cwith the help of that creeper, it will be possible for someone to climb this tree. A hunter can come up and kill us all.\u201d\n\u201cWell there\u2019s no hurry,\u201d they replied, \u201cthe creeper is very small. It would be a pity to destroy it now.\u201d\n\u201cDestroy the creeper while it is still young,\u201d the old bird advised. \u201cNow it is tender and you can cut it easily. Later it will become hard and you will not be able to cut it.\u201d\n\u201cWe\u2019ll see, we\u2019ll see,\u201d answered the birds. But they did not destroy the creeper. They forgot the wise old bird\u2019s advice. As the creeper grew, it began winding its way up the tree.\nStronger and stronger it became, until it was as strong as a thick rope.\nOne morning when the geese had gone out in search of food, a hunter came to the forest. \n\u201cSo this is where the wild geese live,\u201d he said to himself. \u201cWhen they come back in the evening, I shall catch them.\u201d\nThe hunter climbed up the tree with the help of the creeper. He got to the top and spread his net there. Then he climbed down and went away.\nIn the evening, the geese returned home. They did not notice the net. As they flew into the tree, they were trapped. They struggled hard to get out, but could not. \u201cHelp! Help!\u201d cried the geese. \u201cWe are caught in the hunter\u2019s net. Oh! What shall we do?\u201d\n\u201cDon\u2019t make a fuss now,\u201d said the wise old bird. \u201cLong ago I told you to destroy the creeper, but you did not. Now see what has happened. Tomorrow morning the hunter will come back and kill us all.\u201d\n\u201cWe were foolish,\u201d wept the birds. \u201cWe are very sorry we did not listen to you. Please tell us what to do?\u201d\n\u201cThen listen carefully,\u201d replied the wise bird. \u201cWhen the hunter comes you must all pretend to be dead. Just lie still. The hunter will not want dead birds. He will throw us to the ground. It will then be easy for him to climb down, collect the dead birds, and takethem home. When the last of us has been thrown down, we must quickly get up and fly away.\u201d\nIn the morning the hunter came to the tree and climbed up. He looked at the geese in the net.\n\u201cThey are all dead,\u201d he muttered to himself.\nHe threw them out of the net one by one. The birds lay still until the last one had been thrown down. Then, all at once, they got up, flapped their wings, and flew away.\nThe hunter was taken by surprise. From the top of the tree he watched all the geese fly away.\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "What are some of the things your parents and\r\nteachers tell you to do on time? ...Get up in the\r\nmorning\u2026 do the homework\u2026. pack your\r\nschool bag...",
+        "content": "\r\nWhat are some of the things your parents and teachers tell you to do on time? ...Get up in the morning\u2026 do the homework\u2026. pack your school bag...\r\nWhat happened when you didn't do as they asked you to do?\r\n\r\nDeep in a forest stood a very tall tree. Its leafy branches spread out like strong arms.\r\nThis tree was the home of a flock of wild geese. They felt safe there. One of the geese was a wise old bird.\r\nHe noticed a small creeper at the foot of the tree.\r\nHe spoke to the other birds about it.\r\n\u201cDo you see that creeper?\u201d he said to them. \u201cLet us destroy it\u201d. \u201cWhy must we destroy it?\u201d asked the geese in surprise. \u201cIt is so small. What harm can it do?\u201d \u201cMy friends,\u201d replied the wise old bird, \u201cthat little creeper will soon grow. As it creeps up this tree, it will become thick and strong.\u201d \r\n\u201cWhat of that?\u201d asked the geese. \u201cWhat harm can a creeper do us?\u201d\r\n\u201cDon't you see?\u201d replied the wise bird, \u201cwith the help of that creeper, it will be possible for someone to climb this tree. A hunter can come up and kill us all.\u201d\r\n\u201cWell there\u2019s no hurry,\u201d they replied, \u201cthe creeper is very small. It would be a pity to destroy it now.\u201d\r\n\u201cDestroy the creeper while it is still young,\u201d the old bird advised. \u201cNow it is tender and you can cut it easily. Later it will become hard and you will not be able to cut it.\u201d\r\n\u201cWe\u2019ll see, we\u2019ll see,\u201d answered the birds. But they did not destroy the creeper. They forgot the wise old bird\u2019s advice. As the creeper grew, it began winding its way up the tree.\r\nStronger and stronger it became, until it was as strong as a thick rope.\r\nOne morning when the geese had gone out in search of food, a hunter came to the forest. \r\n\u201cSo this is where the wild geese live,\u201d he said to himself. \u201cWhen they come back in the evening, I shall catch them.\u201d\r\nThe hunter climbed up the tree with the help of the creeper. He got to the top and spread his net there. Then he climbed down and went away.\r\nIn the evening, the geese returned home. They did not notice the net. As they flew into the tree, they were trapped. They struggled hard to get out, but could not. \u201cHelp! Help!\u201d cried the geese. \u201cWe are caught in the hunter\u2019s net. Oh! What shall we do?\u201d\r\n\u201cDon\u2019t make a fuss now,\u201d said the wise old bird. \u201cLong ago I told you to destroy the creeper, but you did not. Now see what has happened. Tomorrow morning the hunter will come back and kill us all.\u201d\r\n\u201cWe were foolish,\u201d wept the birds. \u201cWe are very sorry we did not listen to you. Please tell us what to do?\u201d\r\n\u201cThen listen carefully,\u201d replied the wise bird. \u201cWhen the hunter comes you must all pretend to be dead. Just lie still. The hunter will not want dead birds. He will throw us to the ground. It will then be easy for him to climb down, collect the dead birds, and takethem home. When the last of us has been thrown down, we must quickly get up and fly away.\u201d\r\nIn the morning the hunter came to the tree and climbed up. He looked at the geese in the net.\r\n\u201cThey are all dead,\u201d he muttered to himself.\r\nHe threw them out of the net one by one. The birds lay still until the last one had been thrown down. Then, all at once, they got up, flapped their wings, and flew away.\r\nThe hunter was taken by surprise. From the top of the tree he watched all the geese fly away.\r\n",
+        "new_words": [
+            {
+                "word": "Geese",
+                "meaning": "plural for goose; large web-footed bird"
+            },
+            {
+                "word": "creeper",
+                "meaning": "plant that needs support to grow, usually along a wall or a tree"
+            },
+            {
+                "word": "winding",
+                "meaning": "go in circular, spiral course"
+            },
+            {
+                "word": "muttered",
+                "meaning": "spoken in a low tone"
+            },
+            {
+                "word": "flapped",
+                "meaning": " move wings up and down"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Where did the geese live?",
+                "answer": "The geese lived in a tall tree in a forest.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the old bird advise the other birds to destroy the creeper?",
+                "answer": "The old bird advised the geese to destroy the creeper because it could grow thick and strong, making it easy for hunters to climb the tree."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the geese cry, \"Help Help\"?",
+                "answer": "The geese cried for help because they were caught in the hunter\u2019s net."
+            },
+            {
+                "difficulty": "",
+                "question": "What did the hunter do when he saw the geese caught in the net?",
+                "answer": "The hunter climbed the tree, caught all the geese, and put them in a basket."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the geese pretend to be dead?",
+                "answer": "The geese pretended to be dead so that the hunter would throw them out of the net, thinking they were useless."
+            },
+            {
+                "difficulty": "",
+                "question": "How did the geese escape?",
+                "answer": "Once the hunter threw them out, the geese quickly flew away."
+            }
+        ]
     },
     {
         "id": 27,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "My Shadow",
         "prologue": "",
-        "content": "\nI have a little shadow that goes\nin and out with me.\nAnd what can be the use of him is\nmore than I can see.\nHe is very, very like me from the\nheels up to the head;\nAnd I see him jump before me,\nWhen I jump into my bed.\nThe funniest thing about him is the way\nhe likes to grow\nNot at all like proper children, which is\nalways very slow;\nFor he sometimes shoots up taller like an\nIndia-rubber ball,\nAnd he sometimes gets so little that\nThere's none of him at all.\nOne morning, very early, before the\nsun I was up,\nI rose and found the shining dew\non every buttercup;\nBut my lazy little shadow, like an\narrant sleepyhead.\nHad stayed at home behind me and was\nFast asleep in bed.\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nI have a little shadow that goes\r\nin and out with me.\r\nAnd what can be the use of him is\r\nmore than I can see.\r\nHe is very, very like me from the\r\nheels up to the head;\r\nAnd I see him jump before me,\r\nWhen I jump into my bed.\r\nThe funniest thing about him is the way\r\nhe likes to grow\r\nNot at all like proper children, which is\r\nalways very slow;\r\nFor he sometimes shoots up taller like an\r\nIndia-rubber ball,\r\nAnd he sometimes gets so little that\r\nThere's none of him at all.\r\nOne morning, very early, before the\r\nsun I was up,\r\nI rose and found the shining dew\r\non every buttercup;\r\nBut my lazy little shadow, like an\r\narrant sleepyhead.\r\nHad stayed at home behind me and was\r\nFast asleep in bed.\r\n",
+        "new_words": [
+            {
+                "word": "India-rubber ball",
+                "meaning": "a ball that can bounce very high"
+            },
+            {
+                "word": "buttercup",
+                "meaning": "a yellow flower"
+            },
+            {
+                "word": "arrant",
+                "meaning": "bad"
+            },
+            {
+                "word": "arrant sleepyhead",
+                "meaning": "completely inattentive"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Who do you think your shadow looks like?",
+                "answer": "My shadow looks exactly like me.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "Why do you think your shadow jumps into bed before you can?",
+                "answer": "The shadow appears to jump into bed before me because it moves quickly and follows every action I do.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "What time of the day do you think it is when your shadow is the tallest? Why?",
+                "answer": "The shadow is the tallest in the morning or evening because the sun is low in the sky, making shadows long."
+            }
+        ]
     },
     {
         "id": 28,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story-excerpt",
         "title": "Robinson Crusoe Discovers a Footprint",
-        "prologue": "",
-        "content": "\nRobinson Crusoe's ship had been destroyed by the sea. He had been alone for many years and longed for\ncompany. One day he discovers a footprint on the sand. Let's find out what he did then.\n\nOne day, when I was going towards my boat, I was surprised to see the footprint of a man on the sand. I stood amazed! I listened; I looked around me; I could neither hear nor see anything. I went up higher to look down; I went up the shore and down the shore, but it was no good; I could find no other footprint but that one. I went to it again to see if there were any more footprints and to tell if it had been my imagination. But I was not mistaken, for there was exactly the print of a foot \u2014 toes, heel, every part of a foot. I could not imagine how it came there.\nI stayed a long time thinking, but became more and more confused. At last I returned home very frightened, looking behind\nme after every two or three steps, mistaking every bush and tree to be a man.\nWhen I came to my cave (which I called my castle), I ran inside it, as if I was being chased. I do not remember whether I used the ladder or went in by the hole in the rock, which I called the door. I ran for cover, faster than any animal could run.\nI did not sleep that night. The more I thought about what I had seen, the more afraid I became. I thought it could be one of the savages of the mainland who had wandered out to the sea, in a small boat.\nLuckily I was not on shore at that time, but what if he had seen my boat! If he had seen the boat he would have realised that someone lived on the island and would soon return with others to kill and eat me.\nAnd so I lay fearful for many days and prayed for protection. In doing so, I was much comforted and began going out to investigate. But even now as I went forward,looked behind me frequently, because I was still\nvery frightened. However, as I went about for two or three days and saw nothing I became a little bolder. I decided to go down to the shore again and examine the footprint once more. I decided to measure it with my own footmark.\nAs I came closer to the footprint, I realised that it could not be my footprint because I had not come to this part of the beach since a long time. Secondly, as I placed my foot alongside that footprint, it seemed larger than my own.\nMy fear returned! I went home again, believing that there was someone there.\nThe island was inhabited!\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "Robinson Crusoe's ship had been destroyed by the sea.\r\nHe had been alone for many years and longed for\r\ncompany. One day he discovers a footprint on the sand.\r\nLet's find out what he did then",
+        "content": "\r\nRobinson Crusoe's ship had been destroyed by the sea. He had been alone for many years and longed for\r\ncompany. One day he discovers a footprint on the sand. Let's find out what he did then.\r\n\r\nOne day, when I was going towards my boat, I was surprised to see the footprint of a man on the sand. I stood amazed! I listened; I looked around me; I could neither hear nor see anything. I went up higher to look down; I went up the shore and down the shore, but it was no good; I could find no other footprint but that one. I went to it again to see if there were any more footprints and to tell if it had been my imagination. But I was not mistaken, for there was exactly the print of a foot \u2014 toes, heel, every part of a foot. I could not imagine how it came there.\r\nI stayed a long time thinking, but became more and more confused. At last I returned home very frightened, looking behind\r\nme after every two or three steps, mistaking every bush and tree to be a man.\r\nWhen I came to my cave (which I called my castle), I ran inside it, as if I was being chased. I do not remember whether I used the ladder or went in by the hole in the rock, which I called the door. I ran for cover, faster than any animal could run.\r\nI did not sleep that night. The more I thought about what I had seen, the more afraid I became. I thought it could be one of the savages of the mainland who had wandered out to the sea, in a small boat.\r\nLuckily I was not on shore at that time, but what if he had seen my boat! If he had seen the boat he would have realised that someone lived on the island and would soon return with others to kill and eat me.\r\nAnd so I lay fearful for many days and prayed for protection. In doing so, I was much comforted and began going out to investigate. But even now as I went forward,looked behind me frequently, because I was still\r\nvery frightened. However, as I went about for two or three days and saw nothing I became a little bolder. I decided to go down to the shore again and examine the footprint once more. I decided to measure it with my own footmark.\r\nAs I came closer to the footprint, I realised that it could not be my footprint because I had not come to this part of the beach since a long time. Secondly, as I placed my foot alongside that footprint, it seemed larger than my own.\r\nMy fear returned! I went home again, believing that there was someone there.\r\nThe island was inhabited!\r\n",
+        "new_words": [
+            {
+                "word": "savages",
+                "meaning": "wild people in primitive state"
+            },
+            {
+                "word": "mainland",
+                "meaning": "large continuous extent of land"
+            },
+            {
+                "word": "wandered",
+                "meaning": "go from place to place without a definite route"
+            },
+            {
+                "word": "bolder",
+                "meaning": "more confident"
+            },
+            {
+                "word": "inhabited",
+                "meaning": "occupied, dwelled in"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Why did Robinson Crusoe call himself \"poor man\"?",
+                "answer": "Robinson Crusoe called himself a \"poor man\" because he felt lonely and helpless on the deserted island."
+            },
+            {
+                "difficulty": "",
+                "question": "What made Robinson Crusoe think that the print on the ground was a footprint?",
+                "answer": "Robinson Crusoe thought it was a footprint because it looked like the mark of a human foot with toes, heel, and sole.\n"
+            },
+            {
+                "difficulty": "",
+                "question": "Why was Robinson afraid when he looked at the bushes and trees?",
+                "answer": "Robinson was afraid because he thought someone might be hiding behind the bushes and trees."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did Robinson pray when he saw the footprint?",
+                "answer": "Robinson prayed because he was frightened and wanted protection from any danger.\n"
+            }
+        ]
     },
     {
         "id": 29,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Crying",
         "prologue": "",
-        "content": "\nCrying only a little bit\nis no use. You must cry\nuntil your pillow is soaked!\nThen you can jump in the shower\nand splash-splash-splash!\nThen you can throw open\nyour window\nand, \u201cHa, ha! ha ha!\u201d\nAnd if people say, \u201cHey,\nwhat's going on up there?\u201d\n\u201cHa ha!\u201d sing back, \u201cHappiness\nwas hiding in the last tear!\nI wept it! Ha ha!\u201d\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nCrying only a little bit\r\nis no use. You must cry\r\nuntil your pillow is soaked!\r\nThen you can jump in the shower\r\nand splash-splash-splash!\r\nThen you can throw open\r\nyour window\r\nand, \u201cHa, ha! ha ha!\u201d\r\nAnd if people say, \u201cHey,\r\nwhat's going on up there?\u201d\r\n\u201cHa ha!\u201d sing back, \u201cHappiness\r\nwas hiding in the last tear!\r\nI wept it! Ha ha!\u201d\r\n",
+        "new_words": [
+            {
+                "word": "soaked",
+                "meaning": "completely wet"
+            },
+            {
+                "word": "shower",
+                "meaning": "bath in which water is sprayed from above"
+            },
+            {
+                "word": "wept",
+                "meaning": "shed tears, cried"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "According to the poet, should you cry a little or should you cry a lot?",
+                "answer": "You should cry a lot till your pillow is soaked"
+            },
+            {
+                "difficulty": "",
+                "question": "What can you do after crying a lot?",
+                "answer": "You can jump into the shower and be happy"
+            },
+            {
+                "difficulty": "",
+                "question": "Read the first two lines of the poem. Is the mood\nhappy or sad or angry or jealous or upset?",
+                "answer": "Sad"
+            },
+            {
+                "difficulty": "",
+                "question": "In the last few lines the mood of the poet has changed.\nWhat is it now?",
+                "answer": "Happy"
+            }
+        ]
     },
     {
         "id": 30,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story as a play",
         "title": "My Elder Brother",
-        "prologue": "",
-        "content": "\nThis short play is about two brothers who are affectionateand respectful to each other. The story also shows that learning from our day to day experiences is as important as what we learn from books in the school. This play is based on the famous story in Hindi-Bade Bhai Saheb written by Munshi Premchand.\n\nSCENE 1\nA hostel room. Two brothers aged 9 and 14 years, sitting at a study table. The elder brother, Bhaiya, is reading a book and the younger one, Munna, is drawing pictures of birds and animals.\n\nBHAIYA\nWhat are you doing, Munna?\n\nMUNNA\nI am drawing.\n\nBHAIYA\nWhen will you study? Where were you in the morning?\n\nMUNNA\nI was playing. Bhaiya, how can you sit with a book for hours together?\n\nBHAIYA\nThat's because I want my foundation in education to be very strong. If the base is strong, then the building will stand firmly. Sometimes it takes me two years to do one year's work.\n\nMUNNA\nBhaiya, you are five years older than I am and three classes ahead of me. I wonder why you keep writing the same word twenty times, one sentence more than twenty times, and copy poems several times in beautiful letters?\n\nBHAIYA\nYou know, studying English is no child's play. One has to work very hard in order to learn the subject. To speak or write English properly, tremendous effort is required. But the moment you get a chance, you run to the field, play marbles, fly paper kites, or sit idling away with friends for fun! Can\u2019t you sit down and study?\n\nMUNNA\n(turning pale)\nOh Bhaiya, there is a big mela in the village today. Should we go?\n\nBHAIYA\nHave you ever seen me going to a fair or watching a cricket or hockey match? I don't go near them. I prefer to study a book. I don't mind repeating a class for more than two years. But you might stay in the same class all your life. Do you expect to pass if you waste your time playing all the time? You are simply wasting father's hard-earned money.\n\nMUNNA\nBhaiya, I feel like running away and going back home.\n(Munna starts crying; sobbing sounds \"wah, wah, bah, bah, hu, hu\" are heard.)\n\nBHAIYA\nNow, now! Stop crying. Put on a nice smile. Look, I will make a timetable for you to follow. Get up at dawn.\n\nTime | Schedule\n\n6 AM | Wash your hands\n6-8 AM | English\n8-9 AM | Maths\n9-9:30 AM | History\n3:30 PM | Off to school\n5-6 PM | Grammar\n6:30-7 PM | English composition\n8-9 PM | Translation\n9-10 PM | Hindi\n10-11 PM | Other subjects, then to bed\n\nMUNNA\nBut when is the time to play?\n\nBHAIYA\nPlay? What is the need, Munna?\n\nMUNNA\nOh! I love the green fields, the gentle breeze. I want to jump up like a football! I like the touch-and-go and the sounds of the hu tu tu and the hurry and flurry of volleyball. It pulls me like a magnet. As soon as I am on the field, I forget everything.\n\nBHAIYA\nAlas! I have failed once again.\n\nMUNNA\nOh! But Bhaiya, I have passed and topped my class. Now there is only two years difference between us.\n\nBHAIYA\nBut my dear brother, don't be so proud. You have passed only one class and you think that I'm stupid and you are smart. Once in a while, in a game, you might get lucky and hit a goal, but that does not mean you have mastered the game. You have to work hard to be successful in life. When you have to study a subject like Algebra or Geometry in higher classes, then you will understand the importance of hard work.\n\nIn Geometry, if one writes \u2018acb\u2019 instead of \u2018abc,\u2019 the answer is marked wrong. The examiners will not spare you. They want you to learn word by word from the textbooks.\n\nMUNNA\nOh, Bhaisaheb! This is scary. I don\u2019t think I want to go to the 9th class now, but I will still complete my day\u2019s homework so that I get no punishment in class. Just today, we were asked to write a short essay on the topic of Punctuality in four pages! And imagine, can something be written on four pages and still be short? It\u2019s all so mixed up! Thank God, it was time for school, or else, the scolding would have gone on and on.\n\nMUNNA\n(thinking aloud)\nAh! I am lucky. I can pass easily. I need not study so hard. Now I can play games with my friends and fly kites. But I should still be careful that Bhaiya does not see me flying kites.\n\nSCENE 2\nThe final exams are over and the results are out.\n\nMUNNA\n(talking aloud)\nThe results were out once again and it so happened that I passed, and Bhaiya failed again. Bhaiya was really upset. I was also sad seeing my brother so unhappy. Bhaiya now became gentler with me. I, in turn, became naughtier and studied even less than before.\n\n(One day a kite is flying slowly downwards. Munna starts running in order to grab it. Suddenly, he comes face to face with Bhaiya.)\n\nBHAIYA\nAren't you ashamed to be playing kites all day long? Don't you realize that now you are in the eighth class and not studying in a lower class? If you think that I am just one class ahead of you and I can't say anything, you are wrong. I am five years older than you are and will always be. Understanding doesn\u2019t come only from reading books. Look at Ma and Baba. Ma has never gone to school and Baba has only passed the fifth class.\n\nMUNNA\nReally Bhaiya! Is that true?\n\nBHAIYA\nYes! There are a thousand things that they know more than you or me. And even if we have studied the wisdom of the whole world, Ma and Baba will always have the right to explain to us and correct us. Now, what would you do if I were to fall sick today?\n\nMUNNA\nI don't know, Bhaiya! I would tell Baba and he would rush to the hostel.\n\nBHAIYA\nAha! I had expected this answer. Now, Baba would not get upset. He would first try to find out what was wrong and then he would call a doctor. Baba would know exactly what to do. They have more experience than us.\n\nMUNNA\nBhaiya, I am sorry. What you say is true. I also like to play and fly kites. But if I also play, then how can I watch out for you? You are my responsibility.\nI love you, Bhaiya!\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "This short play is about two brothers who are affectionate and respectful to each other. The story also shows that learning from our day to day experiences is as important as\r\nwhat we learn from books in the school. This play is based on the famous story in Hindi written by Munshi Premchand, Bade Bhai Saheb",
+        "content": "\r\nThis short play is about two brothers who are affectionateand respectful to each other. The story also shows that learning from our day to day experiences is as important as what we learn from books in the school. This play is based on the famous story in Hindi-Bade Bhai Saheb written by Munshi Premchand.\r\n\r\nSCENE 1\r\nA hostel room. Two brothers aged 9 and 14 years, sitting at a study table. The elder brother, Bhaiya, is reading a book and the younger one, Munna, is drawing pictures of birds and animals.\r\n\r\nBHAIYA\r\nWhat are you doing, Munna?\r\n\r\nMUNNA\r\nI am drawing.\r\n\r\nBHAIYA\r\nWhen will you study? Where were you in the morning?\r\n\r\nMUNNA\r\nI was playing. Bhaiya, how can you sit with a book for hours together?\r\n\r\nBHAIYA\r\nThat's because I want my foundation in education to be very strong. If the base is strong, then the building will stand firmly. Sometimes it takes me two years to do one year's work.\r\n\r\nMUNNA\r\nBhaiya, you are five years older than I am and three classes ahead of me. I wonder why you keep writing the same word twenty times, one sentence more than twenty times, and copy poems several times in beautiful letters?\r\n\r\nBHAIYA\r\nYou know, studying English is no child's play. One has to work very hard in order to learn the subject. To speak or write English properly, tremendous effort is required. But the moment you get a chance, you run to the field, play marbles, fly paper kites, or sit idling away with friends for fun! Can\u2019t you sit down and study?\r\n\r\nMUNNA\r\n(turning pale)\r\nOh Bhaiya, there is a big mela in the village today. Should we go?\r\n\r\nBHAIYA\r\nHave you ever seen me going to a fair or watching a cricket or hockey match? I don't go near them. I prefer to study a book. I don't mind repeating a class for more than two years. But you might stay in the same class all your life. Do you expect to pass if you waste your time playing all the time? You are simply wasting father's hard-earned money.\r\n\r\nMUNNA\r\nBhaiya, I feel like running away and going back home.\r\n(Munna starts crying; sobbing sounds \"wah, wah, bah, bah, hu, hu\" are heard.)\r\n\r\nBHAIYA\r\nNow, now! Stop crying. Put on a nice smile. Look, I will make a timetable for you to follow. Get up at dawn.\r\n\r\nTime | Schedule\r\n\r\n6 AM | Wash your hands\r\n6-8 AM | English\r\n8-9 AM | Maths\r\n9-9:30 AM | History\r\n3:30 PM | Off to school\r\n5-6 PM | Grammar\r\n6:30-7 PM | English composition\r\n8-9 PM | Translation\r\n9-10 PM | Hindi\r\n10-11 PM | Other subjects, then to bed\r\n\r\nMUNNA\r\nBut when is the time to play?\r\n\r\nBHAIYA\r\nPlay? What is the need, Munna?\r\n\r\nMUNNA\r\nOh! I love the green fields, the gentle breeze. I want to jump up like a football! I like the touch-and-go and the sounds of the hu tu tu and the hurry and flurry of volleyball. It pulls me like a magnet. As soon as I am on the field, I forget everything.\r\n\r\nBHAIYA\r\nAlas! I have failed once again.\r\n\r\nMUNNA\r\nOh! But Bhaiya, I have passed and topped my class. Now there is only two years difference between us.\r\n\r\nBHAIYA\r\nBut my dear brother, don't be so proud. You have passed only one class and you think that I'm stupid and you are smart. Once in a while, in a game, you might get lucky and hit a goal, but that does not mean you have mastered the game. You have to work hard to be successful in life. When you have to study a subject like Algebra or Geometry in higher classes, then you will understand the importance of hard work.\r\n\r\nIn Geometry, if one writes \u2018acb\u2019 instead of \u2018abc,\u2019 the answer is marked wrong. The examiners will not spare you. They want you to learn word by word from the textbooks.\r\n\r\nMUNNA\r\nOh, Bhaisaheb! This is scary. I don\u2019t think I want to go to the 9th class now, but I will still complete my day\u2019s homework so that I get no punishment in class. Just today, we were asked to write a short essay on the topic of Punctuality in four pages! And imagine, can something be written on four pages and still be short? It\u2019s all so mixed up! Thank God, it was time for school, or else, the scolding would have gone on and on.\r\n\r\nMUNNA\r\n(thinking aloud)\r\nAh! I am lucky. I can pass easily. I need not study so hard. Now I can play games with my friends and fly kites. But I should still be careful that Bhaiya does not see me flying kites.\r\n\r\nSCENE 2\r\nThe final exams are over and the results are out.\r\n\r\nMUNNA\r\n(talking aloud)\r\nThe results were out once again and it so happened that I passed, and Bhaiya failed again. Bhaiya was really upset. I was also sad seeing my brother so unhappy. Bhaiya now became gentler with me. I, in turn, became naughtier and studied even less than before.\r\n\r\n(One day a kite is flying slowly downwards. Munna starts running in order to grab it. Suddenly, he comes face to face with Bhaiya.)\r\n\r\nBHAIYA\r\nAren't you ashamed to be playing kites all day long? Don't you realize that now you are in the eighth class and not studying in a lower class? If you think that I am just one class ahead of you and I can't say anything, you are wrong. I am five years older than you are and will always be. Understanding doesn\u2019t come only from reading books. Look at Ma and Baba. Ma has never gone to school and Baba has only passed the fifth class.\r\n\r\nMUNNA\r\nReally Bhaiya! Is that true?\r\n\r\nBHAIYA\r\nYes! There are a thousand things that they know more than you or me. And even if we have studied the wisdom of the whole world, Ma and Baba will always have the right to explain to us and correct us. Now, what would you do if I were to fall sick today?\r\n\r\nMUNNA\r\nI don't know, Bhaiya! I would tell Baba and he would rush to the hostel.\r\n\r\nBHAIYA\r\nAha! I had expected this answer. Now, Baba would not get upset. He would first try to find out what was wrong and then he would call a doctor. Baba would know exactly what to do. They have more experience than us.\r\n\r\nMUNNA\r\nBhaiya, I am sorry. What you say is true. I also like to play and fly kites. But if I also play, then how can I watch out for you? You are my responsibility.\r\nI love you, Bhaiya!\r\n",
+        "new_words": [
+            {
+                "word": "foundation",
+                "meaning": "solid base"
+            },
+            {
+                "word": "schedule",
+                "meaning": "timetable"
+            },
+            {
+                "word": "essay",
+                "meaning": "composition on any subject"
+            },
+            {
+                "word": "idling",
+                "meaning": "without any purpose, lazy"
+            },
+            {
+                "word": "mastered",
+                "meaning": "gained expertise, skilled"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "What are the things that Munna liked to do?",
+                "answer": "Flying kites, running in the green fields and feeling the gentle breeze"
+            },
+            {
+                "difficulty": "",
+                "question": "What did Bhaiya do all day?",
+                "answer": "Bhaiya studied all day"
+            },
+            {
+                "difficulty": "",
+                "question": "Why was Munna not happy with the timetable that Bhaiya made for him?",
+                "answer": "Munna was unhappy with the timetable that Bhaiya made for him because it did not have any time slot for playing"
+            },
+            {
+                "difficulty": "",
+                "question": "How do you think Munna felt when his brother was so strict with him? Why was Bhaiya so strict with him?",
+                "answer": "Munna felt helplessness , he wanted to be more free to play but Bhaiya would not allow him. Bhaiya was strict with him because Munna was his responsibility and he wanted to guide him well towards his studies"
+            }
+        ]
     },
     {
         "id": 31,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story",
         "title": "Rip Van Winkle",
-        "prologue": "",
-        "content": "\nThis story is about Rip Van Winkle, a good-natured but lazy man, who goes away into the hills and falls asleep. When he awakens twenty years later, Rip finds that quite a few things have changed!\n\nMany years ago, at the foothills of the Kaatskill (Kat-skill) mountains, was a little village. In the village lived a simple, good-natured fellow named Rip Van Winkle. He was a kind neighbour, ready to help anyone. Everyone in the village liked him. The children of the village shouted with joy whenever they saw him because he played with them, he taught them to fly kites and shoot marbles, and told them long stories.\nThe only problem with Rip was that he was very lazy. He did no work on his own farm and just idled away his time. His fences were falling to pieces. His cow was going astray. Weeds grew on his farm. Rip's constant companion was his dog, named Wolf. To avoid work, he would walk away into the forest with his dog.\nOne day, Rip just walked on and on and reached the highest part of the mountains. It was late in the afternoon when he reached there. Tired after his long climb, he lay down and began daydreaming. It was soon evening and he realised it would be night by the time he reached his village.\nSuddenly, he heard a voice calling out, \u201cRip Van Winkle, Rip Van Winkle!\u201d He looked around and saw a short, old man, with thick hair and a grizzled beard walking towards him with a barrel. He made signs to help him carry the barrel. Rip hurried to help the stranger who caught his hand tightly. Together they reached a place where there were some more odd looking men, playing ninepins. They were all dressed the same way and all of them had beards of various shapes and colours. Even though they were playing a game, their faces were serious and there was silence! The only sound was the noise of the balls, which echoed in the mountains like thunder.\nAs Rip and his companion reached them, they stopped playing and stared at Rip with a fixed gaze. Rip was really frightened. His companion emptied the contents of the barrel into glasses and made Rip drink it. Rip obeyed as he was trembling with fear. Since he was thirsty he drank a few more glasses and slowly fell into a deep sleep.\nOn waking up, he found that he was at the place where he had first met the old man. He rubbed his eyes \u2014 it was a bright sunny morning. \u201cSurely, I have not slept here all night,\u201d thought Rip.\nHe looked around for Wolf, but he was nowhere. Rip whistled for him. \u201cWolf! Wolf!\u201d he then shouted. No dog was to be seen. \u201cWhere has this dog gone?\u201d he muttered to himself. He began to descend the mountain to go back to his village.\nAs he neared the village, he met a number of people but he didn't know any of them. The villagers also stared at him equally surprised. \u201cWho is this man?\u201d said one.\n\u201cI've never seen him before,\u201d said another, \u201clook at his long white beard and his wrinkled face.\u201d\nOn hearing this, Rip stroked his chin and, to his astonishment, he found his beard had grown a foot long, and it was all white!\nAn old woman walked up to him and looked at his face for a moment. Then she exclaimed \u2014 \u201cIt is Rip Van Winkle! Welcome home again, old neighbour! Where have you been these twenty long years?\n",
+        "prologue": "This story is about Rip Van Winkle, a good-natured\r\nbut lazy man, who goes away into the hills and\r\nfalls asleep. When he awakens twenty years later,\r\nRip finds that quite a few things have changed",
+        "content": "\r\nThis story is about Rip Van Winkle, a good-natured but lazy man, who goes away into the hills and falls asleep. When he awakens twenty years later, Rip finds that quite a few things have changed!\r\n\r\nMany years ago, at the foothills of the Kaatskill (Kat-skill) mountains, was a little village. In the village lived a simple, good-natured fellow named Rip Van Winkle. He was a kind neighbour, ready to help anyone. Everyone in the village liked him. The children of the village shouted with joy whenever they saw him because he played with them, he taught them to fly kites and shoot marbles, and told them long stories.\r\nThe only problem with Rip was that he was very lazy. He did no work on his own farm and just idled away his time. His fences were falling to pieces. His cow was going astray. Weeds grew on his farm. Rip's constant companion was his dog, named Wolf. To avoid work, he would walk away into the forest with his dog.\r\nOne day, Rip just walked on and on and reached the highest part of the mountains. It was late in the afternoon when he reached there. Tired after his long climb, he lay down and began daydreaming. It was soon evening and he realised it would be night by the time he reached his village.\r\nSuddenly, he heard a voice calling out, \u201cRip Van Winkle, Rip Van Winkle!\u201d He looked around and saw a short, old man, with thick hair and a grizzled beard walking towards him with a barrel. He made signs to help him carry the barrel. Rip hurried to help the stranger who caught his hand tightly. Together they reached a place where there were some more odd looking men, playing ninepins. They were all dressed the same way and all of them had beards of various shapes and colours. Even though they were playing a game, their faces were serious and there was silence! The only sound was the noise of the balls, which echoed in the mountains like thunder.\r\nAs Rip and his companion reached them, they stopped playing and stared at Rip with a fixed gaze. Rip was really frightened. His companion emptied the contents of the barrel into glasses and made Rip drink it. Rip obeyed as he was trembling with fear. Since he was thirsty he drank a few more glasses and slowly fell into a deep sleep.\r\nOn waking up, he found that he was at the place where he had first met the old man. He rubbed his eyes \u2014 it was a bright sunny morning. \u201cSurely, I have not slept here all night,\u201d thought Rip.\r\nHe looked around for Wolf, but he was nowhere. Rip whistled for him. \u201cWolf! Wolf!\u201d he then shouted. No dog was to be seen. \u201cWhere has this dog gone?\u201d he muttered to himself. He began to descend the mountain to go back to his village.\r\nAs he neared the village, he met a number of people but he didn't know any of them. The villagers also stared at him equally surprised. \u201cWho is this man?\u201d said one.\r\n\u201cI've never seen him before,\u201d said another, \u201clook at his long white beard and his wrinkled face.\u201d\r\nOn hearing this, Rip stroked his chin and, to his astonishment, he found his beard had grown a foot long, and it was all white!\r\nAn old woman walked up to him and looked at his face for a moment. Then she exclaimed \u2014 \u201cIt is Rip Van Winkle! Welcome home again, old neighbour! Where have you been these twenty long years?\r\n",
         "new_words": [],
-        "exercises": []
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Say whether the following sentences are or . True False\n(i) Rip was kind to children. ________________\n(ii) Rip was a hardworking man. ________________\n(iii) The short old man on the mountain was his constant\ncompanion. ________________\n(iv) Rip helped the old man on the mountains because\nhe wanted to have a drink from the barrel. ________\n(v) Rip was away for twenty years because he was asleep\non the mountains. ________________\n(vi) The drink from the barrel made him fall asleep for\ntwenty years.________________\n(vii) Nobody recognised Rip when he came back because\nhe had reached the wrong village. ________________",
+                "answer": "True\nFalse\nFalse\nFalse\nTrue\nTrue\nFalse"
+            },
+            {
+                "difficulty": "",
+                "question": "Complete the following sentences.\n(i) Rip\u2019s village was situated ____________.\n(ii) The children of the village loved him because ________________________.\n(iii) ____________ was his constant companion.\n(iv) The villagers stared at him because _______________________________.\n(v) The old woman who recognised Rip was ____________________.",
+                "answer": "i) Rip\u2019s village was situated at the foothills of the Kaatskill mountains.\n(ii) The children of the village loved him because he played with them, he taught them to fly kites and shoot\nmarbles, and told them long stories.\n(iii) A dog named Wolf was his constant companion.\n(iv) The villagers stared at him because they could not recognise him."
+            }
+        ]
     },
     {
         "id": 32,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Class Discussion",
         "prologue": "",
-        "content": "\n\u201cIn the class discussion Jane, you hardly said a word.\nWe all aired our opinions but from you we barely heard.\nYou sat and stared in silence surrounded by the chatter,\nNow tell me Jane,\nand please be plain,\nis there anything the matter?\u201d\nJane looked up and then she spoke,\nHer voice was clear and low:\n\u201cThere are many people in this world\nWho are rather quiet you know!\u201d\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\n\u201cIn the class discussion Jane, you hardly said a word.\r\nWe all aired our opinions but from you we barely heard.\r\nYou sat and stared in silence surrounded by the chatter,\r\nNow tell me Jane,\r\nand please be plain,\r\nis there anything the matter?\u201d\r\nJane looked up and then she spoke,\r\nHer voice was clear and low:\r\n\u201cThere are many people in this world\r\nWho are rather quiet you know!\u201d\r\n",
+        "new_words": [
+            {
+                "word": "discussion",
+                "meaning": "talking together in a group on a single topic"
+            },
+            {
+                "word": "aired",
+                "meaning": "make public"
+            },
+            {
+                "word": "barely",
+                "meaning": "only just"
+            },
+            {
+                "word": "stare ",
+                "meaning": " look fixedly with eyes wide open"
+            },
+            {
+                "word": "plain",
+                "meaning": "clear"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "What activity was going on in the class?",
+                "answer": "The activity which was going on in the class was a discussion."
+            },
+            {
+                "difficulty": "",
+                "question": "Who was the quiet one in the class?",
+                "answer": "The student named Jane was the quiet one in the class."
+            },
+            {
+                "difficulty": "",
+                "question": "Why was she quiet?\n(i) she was afraid to air her opinions.\n(ii) she hated the noise.\n(iii) she didn\u2019t like the activity.\n(iv) she was quiet by nature.",
+                "answer": "Jane was quiet because she was quiet by nature"
+            },
+            {
+                "difficulty": "",
+                "question": "How do you interact in class during discussions? Do you participate or remain quiet?",
+                "answer": "No. I don\u2019t like to be quiet. I diligently participate in class discussions"
+            }
+        ]
     },
     {
         "id": 33,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story",
         "title": "The Talkative Barber",
-        "prologue": "",
-        "content": "\nLong long ago a Sultan, whose name was Shahriar, ruled over a large kingdom. His queen was a good storyteller. Each night she would tell a story to the king. She narrated ancient Persian and Arabic folk stories. This is one of the stories, from the Arabian Nights.\n\nIn the city of Cashgar, lived a barber who was a great talker. Once the Sultan called the barber to shave his head. The barber started talking non-stop instead of shaving him. The Sultan got angry. \n\u201cWhen are you going to stop talking and begin to do your work?\u201d\nThe Barber replied, \u201cYou do me an injury by calling me a chatterer. For, everyone says I am very quiet. I have six brothers whom you might call chatterers. Their names are Bacbone (buk-bon), Bakbarea (buk-buria), Bakbac (buk-buk), Alcouz\n(ul-kooz), Alnaschee (ul-nashi) and Schacabac( sha-ka-bak). One is humpbacked, one is toothless, one is half blind, one is quite blind, one is deaf and the other has a defect in his speech and they are all great talkers, but I am the youngest of my family, and I am very quiet and sparing with words.\u201d\n\u201cGive him three pieces of gold,\u201d the Sultan cried, losing all patience, \u201cand send him away. I will not be shaved today.\u201d\n\u201cMy Master,\u201d cried the Barber, \u201cit was not I who came to seek you, it was you who ordered me to come. So I will not quit your house till I have shaved you.\u201d\nHe then began narrating another story, which lasted half an hour.\n\u201cStop making your fine speeches and let me go quickly. I have an affair of the greatest importance. I have to go out at noon,\u201d said the Sultan.\nWhen he saw that the Sultan was really angry with him, the Barber said, \u201cO Master, do not be angry, I will begin to shave you.\u201d Saying this, he washed the Sultan\u2019s head and began to shave. But he had not touched him even four times with the razor, when he stopped and said, \u201cMy Master, you are acting hastily in this matter.\u201d\n\u201cGo on shaving me, speak no more\u201d, ordered the Sultan.\n\u201cBe patient,\u201d said the barber, \u201cperhaps you have not considered well what you were going to do. I wish you would tell me what this matter of great importance is all about and then I will give you my opinion on it.\u201d\n\u201cFinish shaving at once,\u201d the Sultan exclaimed. But, instead of doing this, the Barber left the Sultan half-shaved to go and see what time it was.\u201c My patience is exhausted,\u201d the Sultan cried.\n\u201cBe calm, my Master and you shall be shaved in a moment,\u201d said the Barber and saying this, he continued shaving the Sultan. But while he was doing this, he could not help talking.\n\u201cIf you could inform me what this important affair is, I would give more advice, which you might find useful,\u201d he said.\nThe Sultan was completely fed up by now and decided to satisfy the barber. He told him that he was giving a feast to some friends at noon which was why he was in a hurry to leave.\nWhen the barber heard the Sultan mention a feast he exclaimed, \u201cThat reminds me. Yesterday, I invited four or five friends to come to my house today. But I had quite forgotten it and have not made any preparations for them.\u201d The Sultan who was at the mercy of the Barber, was ready to do anything to be rid of him. \n\u201cBe quick and finish your work,\u201d the Sultan replied, \u201cand you shall have all the food that has been prepared for me today.\u201d\n\u201cPlease show me the food so that I may judge if it is enough for my five friends.\u201d\n\u201cI have enough food for you!\u201d the Sultan exclaimed. But he ordered that all the food prepared for his feast be brought in.\nThe Barber looked over the food and said \u201cThis is very good but I shall want some fruit for the dessert also.\u201d The Sultan, in desperation, since his head was half shaved, ordered that the fruits should also be brought in. The Barber left off shaving the Sultan to examine each dish separately. This took up half an hour.\nThe Sultan stamped his feet impatiently but the Barber did not hurry.\nAt length, however, he again took up the razor but after a few minutes of work, stopped suddenly and cried, \u201cI never knew that you were so generous.\u201d\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "Long long ago a Sultan, whose name was\r\nShahriar, ruled over a large kingdom. His\r\nqueen was a good storyteller. Each night she\r\nwould tell a story to the king. She narrated\r\nancient Persian and Arabic folk stories. This is\r\none of the stories, from the Arabian Nights",
+        "content": "\r\nLong long ago a Sultan, whose name was Shahriar, ruled over a large kingdom. His queen was a good storyteller. Each night she would tell a story to the king. She narrated ancient Persian and Arabic folk stories. This is one of the stories, from the Arabian Nights.\r\n\r\nIn the city of Cashgar, lived a barber who was a great talker. Once the Sultan called the barber to shave his head. The barber started talking non-stop instead of shaving him. The Sultan got angry. \r\n\u201cWhen are you going to stop talking and begin to do your work?\u201d\r\nThe Barber replied, \u201cYou do me an injury by calling me a chatterer. For, everyone says I am very quiet. I have six brothers whom you might call chatterers. Their names are Bacbone (buk-bon), Bakbarea (buk-buria), Bakbac (buk-buk), Alcouz\r\n(ul-kooz), Alnaschee (ul-nashi) and Schacabac( sha-ka-bak). One is humpbacked, one is toothless, one is half blind, one is quite blind, one is deaf and the other has a defect in his speech and they are all great talkers, but I am the youngest of my family, and I am very quiet and sparing with words.\u201d\r\n\u201cGive him three pieces of gold,\u201d the Sultan cried, losing all patience, \u201cand send him away. I will not be shaved today.\u201d\r\n\u201cMy Master,\u201d cried the Barber, \u201cit was not I who came to seek you, it was you who ordered me to come. So I will not quit your house till I have shaved you.\u201d\r\nHe then began narrating another story, which lasted half an hour.\r\n\u201cStop making your fine speeches and let me go quickly. I have an affair of the greatest importance. I have to go out at noon,\u201d said the Sultan.\r\nWhen he saw that the Sultan was really angry with him, the Barber said, \u201cO Master, do not be angry, I will begin to shave you.\u201d Saying this, he washed the Sultan\u2019s head and began to shave. But he had not touched him even four times with the razor, when he stopped and said, \u201cMy Master, you are acting hastily in this matter.\u201d\r\n\u201cGo on shaving me, speak no more\u201d, ordered the Sultan.\r\n\u201cBe patient,\u201d said the barber, \u201cperhaps you have not considered well what you were going to do. I wish you would tell me what this matter of great importance is all about and then I will give you my opinion on it.\u201d\r\n\u201cFinish shaving at once,\u201d the Sultan exclaimed. But, instead of doing this, the Barber left the Sultan half-shaved to go and see what time it was.\u201c My patience is exhausted,\u201d the Sultan cried.\r\n\u201cBe calm, my Master and you shall be shaved in a moment,\u201d said the Barber and saying this, he continued shaving the Sultan. But while he was doing this, he could not help talking.\r\n\u201cIf you could inform me what this important affair is, I would give more advice, which you might find useful,\u201d he said.\r\nThe Sultan was completely fed up by now and decided to satisfy the barber. He told him that he was giving a feast to some friends at noon which was why he was in a hurry to leave.\r\nWhen the barber heard the Sultan mention a feast he exclaimed, \u201cThat reminds me. Yesterday, I invited four or five friends to come to my house today. But I had quite forgotten it and have not made any preparations for them.\u201d The Sultan who was at the mercy of the Barber, was ready to do anything to be rid of him. \r\n\u201cBe quick and finish your work,\u201d the Sultan replied, \u201cand you shall have all the food that has been prepared for me today.\u201d\r\n\u201cPlease show me the food so that I may judge if it is enough for my five friends.\u201d\r\n\u201cI have enough food for you!\u201d the Sultan exclaimed. But he ordered that all the food prepared for his feast be brought in.\r\nThe Barber looked over the food and said \u201cThis is very good but I shall want some fruit for the dessert also.\u201d The Sultan, in desperation, since his head was half shaved, ordered that the fruits should also be brought in. The Barber left off shaving the Sultan to examine each dish separately. This took up half an hour.\r\nThe Sultan stamped his feet impatiently but the Barber did not hurry.\r\nAt length, however, he again took up the razor but after a few minutes of work, stopped suddenly and cried, \u201cI never knew that you were so generous.\u201d\r\n",
+        "new_words": [
+            {
+                "word": "chatterer",
+                "meaning": "someone who talks a lot"
+            },
+            {
+                "word": "defect",
+                "meaning": "a fault"
+            },
+            {
+                "word": "opinion",
+                "meaning": "what a person feels about a person, thing or subject"
+            },
+            {
+                "word": "dessert",
+                "meaning": "a sweet dish served after the main meal"
+            },
+            {
+                "word": "exhausted",
+                "meaning": "tired and fed up"
+            },
+            {
+                "word": "at length ",
+                "meaning": "at a stretch "
+            },
+            {
+                "word": "examine",
+                "meaning": "to look at something very carefully"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "How many brothers did the Barber have?",
+                "answer": "The barber had six brothers."
+            },
+            {
+                "difficulty": "",
+                "question": "Why was the Sultan in a hurry?",
+                "answer": "Sultan invited some of his friends to a feast at noon. Hence, he was in a hurry to leave"
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the barber take so long to shave the Sultan",
+                "answer": "The barber was busy talking all the time. Therefore, he took so long to shave the Sultan"
+            },
+            {
+                "difficulty": "",
+                "question": "Write True or False.\n(i) The Barber was shaving the Sultan\u2019s beard. ________\n(ii) The Sultan gave him three gold coins. _________\n(iii) The Barber refused to leave the Sultan\u2019s palace. _______\n(iv) There were seven brothers altogether in the Sultan\u2019s family. ____________",
+                "answer": "(i) False\n(ii) True\n(iii) True\n(iv) False"
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the Barber want a lot of food?",
+                "answer": "The Barber had invited four or five friends for a meal at his house but had forgotten about the preparations to be made.\nHence, he wanted a lot of food."
+            },
+            {
+                "difficulty": "",
+                "question": "Did the Sultan enjoy the Barber\u2019s talk? Why do you say so?",
+                "answer": "No, the Sultan didn\u2019t enjoy the Barber\u2019s talk because he was ready to give all the food prepared for him in order to get\nrid of the Barber."
+            },
+            {
+                "difficulty": "",
+                "question": "Which part of the story did you find the funniest?",
+                "answer": "The funniest part of the story was when the Barber started to examine the dishes leaving behind the Sultan\u2019s head half\nshaved."
+            },
+            {
+                "difficulty": "",
+                "question": "What are the things the Sultan gave to the Barber?",
+                "answer": "The Sultan gave him three pieces of gold, all the food prepared for him, and the fruits"
+            },
+            {
+                "difficulty": "",
+                "question": "Do you think the Sultan was really very generous? Why do you say so?",
+                "answer": "I am not sure whether the Sultan was really very generous because, in my opinion, he showed his generosity to get his\nhead fully shaved."
+            }
+        ]
     },
     {
         "id": 34,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Topsy Turvy Land",
-        "prologue": "",
-        "content": "\nHave you ever thrown your school bag on your bed?\nHave you ever left your shoes and socks here and there?\nHave you ever played with your ball in your room?\nDoes your room sometimes look like a mess?\nNow read about one such upside-down land.\n---\n\nThe people walk upon their heads,\nThe sea is made of sand,\nThe children go to school by night,\nIn Topsy-turvy Land.\n\nThe front-door step is at the back,\nYou're walking when you stand,\nYou wear your hat upon your feet,\nIn Topsy-turvy Land.\n\nAnd buses on the sea you'll meet,\nWhile pleasure boats are planned,\nTo travel up and down the streets\nOf Topsy-turvy Land.\n\nYou pay for what you never get,\nI think it must be grand,\nFor when you go you're coming back,\nIn Topsy-turvy Land.\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "Have you ever thrown your school bag\r\non your bed?\r\nHave you ever left your shoes and socks\r\nhere and there?\r\nHave you ever played with your ball in\r\nyour room?\r\nDoes your room sometimes look like\r\nthis",
+        "content": "The people walk upon their heads,\r\nThe sea is made of sand,\r\nThe children go to school by night,\r\nIn Topsy-turvy Land.\r\n\r\nThe front-door step is at the back,\r\nYou're walking when you stand,\r\nYou wear your hat upon your feet,\r\nIn Topsy-turvy Land.\r\n\r\nAnd buses on the sea you'll meet,\r\nWhile pleasure boats are planned,\r\nTo travel up and down the streets\r\nOf Topsy-turvy Land.\r\n\r\nYou pay for what you never get,\r\nI think it must be grand,\r\nFor when you go you're coming back,\r\nIn Topsy-turvy Land.\r\n",
+        "new_words": [
+            {
+                "word": "topsy-turvy",
+                "meaning": "upside down"
+            },
+            {
+                "word": "pleasure",
+                "meaning": "feeling of enjoyment"
+            },
+            {
+                "word": "grand",
+                "meaning": "big, (here) great fun"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "When do children go to school in Topsy-turvy Land?",
+                "answer": "The children go to school at night in Topsy-turvy land."
+            },
+            {
+                "difficulty": "",
+                "question": "In the poem, if buses travel on the sea, then where do the boats travel? How should it rightly be?",
+                "answer": "The boats travel on the streets of Topsy-turvy Land. They should travel on the sea"
+            },
+            {
+                "difficulty": "",
+                "question": "The words in the sentences are jumbled here. Rearrange them to make meaningful sentences. Words that\nbegin with a capital letter are the first word of the sentence.\n(i) Renu naughty is a girl.\n(ii) untidy room Her always is.\n(iii) mother Her advises her clean to it.\n(iv) never listens She her mother to.\n(v) kind of What child a you are?",
+                "answer": "(i) Renu is a naughty girl.\n(ii) Her room is always untidy.\n(iii) Her mother advises her to clean it.\n(iv) She never listens to her mother.\n(v) What kind of a child are you?"
+            },
+            {
+                "difficulty": "",
+                "question": "Write five things that you do at home to make your home look neat and clean.",
+                "answer": "(i) I sweep the floor twice a day.\n(ii) I mop everyday.\n(iii) I arrange the things in their suitable places to make the room tidy\n(iv) I clean the utensils in the kitchen immediately.\n(v) I vacuum the entire house regularly to get rid of dust."
+            },
+            {
+                "difficulty": "",
+                "question": "Two stories got mixed up. Sort them out and write them in the appropriate boxes.\n\u2022 We thought the lion had eaten someone.\n\u2022 Suddenly the kite lifted him off the ground and took him over the treetops.\n\u2022 We saw a shoe in the lion\u2019s cage.\n\u2022 Finally, the kite brought him back to the park.\n\u2022 Our class had gone to the zoo.\n\u2022 Puran was flying the brand new kite in the park.\n\u2022 Some children stood and screamed, and some ran to the Director of the zoo.\n\u2022 Puran was frightened and excited.\n\u2022 The lion had not eaten anyone, because the shoe was one of the lion\u2019s toys.",
+                "answer": "The Magic Kite\nPuran was flying the brand new kite in the park. Suddenly the kite lifted him off the ground and took him over the\ntreetops. Puran was frightened and excited. Finally, the kite brought him back to the park.\nWho Did the Lion Eat?\nOur class had gone to the zoo. We saw a shoe in the lion\u2019s cage. We thought the lion had eaten someone. Some\nchildren stood and screamed, and some ran to the Director of the zoo. The lion had not eaten anyone because the shoe\nwas one of the lion\u2019s toys."
+            }
+        ]
     },
     {
         "id": 35,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story - Excerpt",
         "title": "Gulliver's Travels",
-        "prologue": "",
-        "content": "\nWhen a person tells the story of his life in his own words it is called an autobiography. Gulliver, a sailor, was once caught in the land of Giants. This is how he describes his experience.\n---\n\nOn the 16th of June 1730 we discovered land. Our captain sent a dozen men with vessels for water, if any could be found. When we came to land we saw no river or spring nor any inhabitants. I went on to explore. The country was barren and rocky. I turned back to join the crew, only to see them getting into the boat and rowing for life to get to the ship.\nBefore I could reach them I observed a huge creature walking after them in the sea as fast as he could. The water of the ocean reached only till his knees! However, the monster was unable to overtake the speeding boat. I turned back quickly and climbed up a steep hill with fields of barley on either side and the corn rising upto forty feet. There was a fence to pass from one field to the other.\nIt was impossible for me to climb because every step was six feet high. I was trying to find a gap in the hedge when I discovered one of the inhabitants in the next field walking towards the fence. He was of the same size as the creature chasing the boat. I was struck with utmost fear and astonishment and ran to hide myself. He called in a voice much louder than a trumpet. It sounded like thunder! Seven monsters like him came towards the field ready to reap the corn. They carried a reaping hook which was very big. When one of the reapers approached where I lay hidden I screamed as loud as I could. The creature stopped reaping, picked me up between his thumb and forefinger and brought me close to his eyes, sixty feet above the ground. He looked at me with curiosity and blew my hair aside to get a better view of my face.\nHe called his friends and gently placed me on the ground.\nThey all sat on the ground to take a good look at me. I walked slowly backward and forward, pulled off my hat and made a low bow towards the farmers. I tried to speak to them loudly in several languages. Each time I did so the farmer who picked me up held his ear very close to me but in vain. The farmer took me to his house and placed me at some distance on the dining table which was thirty feet high from the floor.\nDinner was brought for the farmer in a dish which was ten feet in diameter. The farmer's wife crumbled some bread and placed it before me. In the middle of the dinner I heard a noise behind me. It was the purring of a cat that was ten times larger than an ox. The farmer's wife was stroking him. Then entered the farmer's one year-old son in the arms of a lady. On seeing me the child grabbed me from the table and put my head into his mouth. I shouted so loudly that the baby dropped me. I would have broken my neck if the mother had not held her apron under me. Later she put me on her own bed and covered me with a clean white handkerchief.\nI slept dreaming of my home, my wife and my children.\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "When a person tells the story of his life in his own\r\nwords it is called an autobiography. Gulliver a sailor , ,\r\nwas once caught in the land of Giants. This is how he\r\ndescribes his experience",
+        "content": "\r\nWhen a person tells the story of his life in his own words it is called an autobiography. Gulliver, a sailor, was once caught in the land of Giants. This is how he describes his experience.\r\n---\r\n\r\nOn the 16th of June 1730 we discovered land. Our captain sent a dozen men with vessels for water, if any could be found. When we came to land we saw no river or spring nor any inhabitants. I went on to explore. The country was barren and rocky. I turned back to join the crew, only to see them getting into the boat and rowing for life to get to the ship.\r\nBefore I could reach them I observed a huge creature walking after them in the sea as fast as he could. The water of the ocean reached only till his knees! However, the monster was unable to overtake the speeding boat. I turned back quickly and climbed up a steep hill with fields of barley on either side and the corn rising upto forty feet. There was a fence to pass from one field to the other.\r\nIt was impossible for me to climb because every step was six feet high. I was trying to find a gap in the hedge when I discovered one of the inhabitants in the next field walking towards the fence. He was of the same size as the creature chasing the boat. I was struck with utmost fear and astonishment and ran to hide myself. He called in a voice much louder than a trumpet. It sounded like thunder! Seven monsters like him came towards the field ready to reap the corn. They carried a reaping hook which was very big. When one of the reapers approached where I lay hidden I screamed as loud as I could. The creature stopped reaping, picked me up between his thumb and forefinger and brought me close to his eyes, sixty feet above the ground. He looked at me with curiosity and blew my hair aside to get a better view of my face.\r\nHe called his friends and gently placed me on the ground.\r\nThey all sat on the ground to take a good look at me. I walked slowly backward and forward, pulled off my hat and made a low bow towards the farmers. I tried to speak to them loudly in several languages. Each time I did so the farmer who picked me up held his ear very close to me but in vain. The farmer took me to his house and placed me at some distance on the dining table which was thirty feet high from the floor.\r\nDinner was brought for the farmer in a dish which was ten feet in diameter. The farmer's wife crumbled some bread and placed it before me. In the middle of the dinner I heard a noise behind me. It was the purring of a cat that was ten times larger than an ox. The farmer's wife was stroking him. Then entered the farmer's one year-old son in the arms of a lady. On seeing me the child grabbed me from the table and put my head into his mouth. I shouted so loudly that the baby dropped me. I would have broken my neck if the mother had not held her apron under me. Later she put me on her own bed and covered me with a clean white handkerchief.\r\nI slept dreaming of my home, my wife and my children.\r\n",
+        "new_words": [
+            {
+                "word": "bellowing",
+                "meaning": "very loud noise"
+            },
+            {
+                "word": "inhabitants ",
+                "meaning": "occupants"
+            },
+            {
+                "word": "barren",
+                "meaning": "land with no vegetation"
+            },
+            {
+                "word": "astonishment",
+                "meaning": "greatly surprised"
+            },
+            {
+                "word": "crumbled",
+                "meaning": "broken into pieces"
+            },
+            {
+                "word": "grab",
+                "meaning": "pick suddenly"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Why did the captain send the men to the land?",
+                "answer": "The captain sent the men to the land with vessels to look for water."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the men rush back to the ship?",
+                "answer": "The men were chased by a giant. Hence, they rushed back to the ship"
+            },
+            {
+                "difficulty": "",
+                "question": "Choose the correct answer.\n(i) The giant carried a reaping hook because\n(a) he was fighting with the other giants.\n(b) he was going to reap the corn.\n(c) he wanted to frighten Gulliver.\n(ii) They put Gulliver on the ground to look at him because\n(a) they had never seen a human before.\n(b) they thought he was a doll.\n(c) they had never seen such a tiny man.\n(iii) Gulliver was\n(a) a farmer.\n(b) a sailor.\n(c) a dwarf.\n(d) a giant.",
+                "answer": "(i) (b) he was going to reap the corn.\n(ii) (c) they had never seen such a tiny man\n(iii) (b) a sailor."
+            },
+            {
+                "difficulty": "",
+                "question": "Name the creature to whom you would look like Gulliver.\nThe creature is now extinct.\nThe word begins with the letter D______________________",
+                "answer": "Dinosaur"
+            },
+            {
+                "difficulty": "",
+                "question": "From the text, write the sentence that tells you the following.\n(i) The giant reapers were fascinated by Gulliver. _________________________________________________\n(ii) Gulliver was a learned man.\n_________________________________________________\n(iii) The farmer\u2019s son thought Gulliver was a toy.\n__________________________________________________\n(iv) The farmer\u2019s wife was a kind-hearted woman.\n__________________________________________________",
+                "answer": "(i) They all sat on the ground to take a good look at me.\n(ii) I tried to speak to them loudly in several languages.\n(iii) On seeing me, the child grabbed me from the table and put my head into his mouth.\n(iv) Later, she put me on her own bed and covered me with a clean white handkerchief."
+            },
+            {
+                "difficulty": "",
+                "question": "Read the following sentences carefully.\nThe giant farmer\u2019s voice was as loud as a bellowing trumpet.\nor\nThe giant farmer\u2019s voice was as loud as thunder. When something is very cold, we say it is as cold as ice. This is\nbecause ice is very very cold.\nNow complete the following. Use the words given in the box.\nas _______________ as a feather\nas _______________ as a tortoise\nas _________________ as honey\nas _________________ as snow\nas _________________ as an ox\nas _________________ as night\nas _________________ as a rose\nas _________________ as a toast\nas ________________ as a breeze",
+                "answer": "as light as a feather\nas slow as a tortoise\nas sweet as honey\nas white as snow\nas strong as an ox\nas dark as night\nas red as a rose\nas warm as a toast\nas gentle as a breeze"
+            },
+            {
+                "difficulty": "",
+                "question": "Use the above expressions to complete the following sentences.\n(i) The old man\u2019s hair is as white _____________________.\n(ii) His feet were as cold _____________.\n(iii) The newspaper boy was as slow _______________ ___________in delivering the papers.\n(iv) I felt as light ____________after exercising.",
+                "answer": "(i) The old man\u2019s hair is as white as snow.\n(ii) His feet were as cold as ice.\n(iii) The newspaper boy was as slow as a tortoise in delivering the papers.\n(iv) I felt as light as a feather after exercising"
+            },
+            {
+                "difficulty": "",
+                "question": "Create your own comparisons for the following. Work in pairs\nas tall as _____________\nas fast as ____________\nas high as ____________\nas angry as ___________\nas tiny as ____________\nas brave as ____________\n",
+                "answer": "as tall as the Qutub Minar\nas fast as a Cheetah\nas high as the Mount Everest\nas angry as a bull\nas tiny as an ant\nas brave as a soldier"
+            }
+        ]
     },
     {
         "id": 36,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Nobody's friend",
-        "prologue": "",
-        "content": "\nDo you like making friends?\nDo you like to share your things with others?\nDo you think there is any child who has no friends?\nRead on...\n---\n\nShe had some sweets that she wouldn\u2019t share,\nShe had a book that she wouldn\u2019t lend,\nShe wouldn\u2019t let anyone play with her doll,\nShe\u2019s nobody\u2019s friend!\nHe had some toffee, and ate every bit,\nHe had a tricycle he wouldn\u2019t lend,\nHe never let anyone play with his train,\nHe\u2019s nobody\u2019s friend!\nBut I\u2019ll share all of my sweets with you,\nMy ball and my books and my games I will lend,\nHere\u2019s half my apple and half my cake\n\u2014 I\u2019m your friend!\n",
+        "prologue": "Do you like making friends?\r\nDo you like to share your things with others?\r\nDo you think there is any child who has no friends?\r\nRead on...",
+        "content": "\r\nDo you like making friends?\r\nDo you like to share your things with others?\r\nDo you think there is any child who has no friends?\r\nRead on...\r\n---\r\n\r\nShe had some sweets that she wouldn\u2019t share,\r\nShe had a book that she wouldn\u2019t lend,\r\nShe wouldn\u2019t let anyone play with her doll,\r\nShe\u2019s nobody\u2019s friend!\r\nHe had some toffee, and ate every bit,\r\nHe had a tricycle he wouldn\u2019t lend,\r\nHe never let anyone play with his train,\r\nHe\u2019s nobody\u2019s friend!\r\nBut I\u2019ll share all of my sweets with you,\r\nMy ball and my books and my games I will lend,\r\nHere\u2019s half my apple and half my cake\r\n\u2014 I\u2019m your friend!\r\n",
         "new_words": [],
-        "exercises": []
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "What are the things the girl does not want to share?",
+                "answer": "The things that the girl does not want to share are sweets, a book and her doll."
+            },
+            {
+                "difficulty": "",
+                "question": " Did the boy share his toffee and tricycle with others?",
+                "answer": "No, the boy did not share his toffee and tricycle with others"
+            },
+            {
+                "difficulty": "",
+                "question": "Why are the two children nobody\u2019s friends?",
+                "answer": "The two children do not share their things with anyone. Hence, the two children are nobody\u2019s friends."
+            },
+            {
+                "difficulty": "",
+                "question": "What does the child in the last stanza want to share?",
+                "answer": "The child in the last stanza wants to share her sweets, ball, books, games, apple and cake"
+            },
+            {
+                "difficulty": "",
+                "question": "Do you like to share your favourite food or toys with others? Why?",
+                "answer": "Yes, I like to share my favourite food or toys with others because it makes me happy."
+            },
+            {
+                "difficulty": "",
+                "question": "Who is your best friend? Can you describe him/her?",
+                "answer": "Shreya is my best friend. She is an intelligent girl. She loves to share things with me. She always helps me whenever I\nhave a problem."
+            },
+            {
+                "difficulty": "",
+                "question": "Suppose you and your friends were very thirsty, and there was only one glass of water. What would you do?\n",
+                "answer": "I would share the glass of water."
+            },
+            {
+                "difficulty": "",
+                "question": "If you had a bat, could you play cricket by yourself?",
+                "answer": "No"
+            },
+            {
+                "difficulty": "",
+                "question": "Can you find more words ending with -less\nfriendless, homeless, _________________\n_________________________________",
+                "answer": "friendless, homeless, hopeless, restless, helpless, useless, fearless"
+            },
+            {
+                "difficulty": "",
+                "question": "10. Can you write the opposite of\n(i) lend b ________________ w\n(ii) nobody s _____________ y",
+                "answer": "(i) The opposite of lend is borrow.\n(ii) The opposite of nobody is somebody."
+            },
+            {
+                "difficulty": "",
+                "question": "Read the given sentences and underline the no word in each.\n(i) Nobody is at home.\n(ii) Ram has no book.\n(iii) Can no one help him?\n(iv) Was Gopal nowhere around?\n(v) None of the two boys came.\n(vi) There is nothing to do.\n(vii) I have no coat.\n(viii) Radha is never late",
+                "answer": "(i) Nobody is at home.\n(ii) Ram has no book.\n(iii) Can no one help him?\n(iv) Was Gopal nowhere around?\n(v) None of the two boys came.\n(vi) There is nothing to do.\n(vii) I have no coat.\n(viii) Radha is never late"
+            },
+            {
+                "difficulty": "",
+                "question": "Now write words that rhyme with\ntrain ___________ ______________ ______________\nfriend __________ _____________ _____________",
+                "answer": "train, chain, grain, plain.\nfriend, end, spend, trend."
+            }
+        ]
     },
     {
         "id": 37,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story",
         "title": "The little bully",
-        "prologue": "",
-        "content": "\nDo you know of any child who teases others or pushes them around? What would you call such a child?\nRead this story and see how Hari, a little boy troubles other children.\n---\n\nOnce upon a time, not so very long ago, there was a small boy called Hari. Although he wasn\u2019t very big, he was strong, and he loved to tease all the boys and girls who went to school with him. What he loved to do most was to pinch. He could make a big bruise appear in half a second. Another trick he played was pricking people with a pin.\nSo you can guess how all the children hated him. They tried pinching him back, but that was no good because he could always pinch harder. They didn't like telling their teacher, because that was telling tales.\nIt so happened that the class went for a picnic to the seaside for a whole day. All the children were most excited. \nOn that day, the sun shone bright, and all the children were wild with excitement. They crowded into the train and sat down \u2014 but nobody wanted to sit next to Hari because he always pinched.\nWhen they arrived at the seaside, out jumped all the children with a shout of joy. Down to the sands they raced, hand in hand \u2014 but nobody took Hari\u2019s hand.Nobody went near him.\nHari was angry. He went to a sandy corner near a rocky pool and sat down by himself. He took out his lunch and looked at it. It was a good lunch. There were two hard-boiled eggs, six jam sandwiches, three pieces of bread and butter, a ginger cake, and a bar of chocolate.\nHe would eat it all by himself. He wouldn't offer anything to anyone!\nJust as he was beginning on the eggs, he heard a hoarse voice near him. \u201cGood morning! I am so pleased to meet a boy like you.\u201d Hari turned around and stared in fright. Whatever do you think he saw?\nHari saw a monster crab walking sideways out of the pool. His eyes were on the ends of short stalks and he looked most queer. He held out his front claw to Hari. Hari put out his hand to shake the crab\u2019s claw, but to his surprise and anger the crab opened his pincers and nipped his hand so hard that the little boy yelled.\n\u201cAh, here is my good cousin,\u201d said the crab pleasantly, and, to Hari\u2019s horror, he saw a large sandy lobster crawling heavily out of the pool. Before the little boy could stop him the lobster took his hand in his great pincer-like claws and pinched it so hard that Hari yelled in pain. Then he stared at the pool in surprise, for, out came sandy-coloured shrimps and prawns, more crabs, and another large lobster and they pricked Hari till he was soon black and blue with their pinching.\n\u201cDon\u2019t you like it?\u201d said all the creatures in surprise.\n\u201cWhy, we were told you would love to see us because you were a champion pincher and pricker yourself. Come, come join in the fun!\u201d\nHari leapt to his feet, crying loudly. His lunch rolled into the pool, and when the crabs and lobsters saw it they ran to it and began to feast eagerly. Hari saw that they had forgotten him for a time, and he turned and ran for his life, tears streaming down his cheeks.\n\u201cThey only did to me what I keep doing to the other children,\u201d he thought. \u201cBut how it hurt! And how I hated those crabs and lobsters! I suppose the other children hate me too. Well, I jolly well shan\u2019t pinch or prick any more.\u201d\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "Do you know of any child who teases others or pushes\r\nthem around? What would you call such a child?\r\nRead this story and see how Hari, a little boy troubles\r\nother children.",
+        "content": "\r\nDo you know of any child who teases others or pushes them around? What would you call such a child?\r\nRead this story and see how Hari, a little boy troubles other children.\r\n---\r\n\r\nOnce upon a time, not so very long ago, there was a small boy called Hari. Although he wasn\u2019t very big, he was strong, and he loved to tease all the boys and girls who went to school with him. What he loved to do most was to pinch. He could make a big bruise appear in half a second. Another trick he played was pricking people with a pin.\r\nSo you can guess how all the children hated him. They tried pinching him back, but that was no good because he could always pinch harder. They didn't like telling their teacher, because that was telling tales.\r\nIt so happened that the class went for a picnic to the seaside for a whole day. All the children were most excited. \r\nOn that day, the sun shone bright, and all the children were wild with excitement. They crowded into the train and sat down \u2014 but nobody wanted to sit next to Hari because he always pinched.\r\nWhen they arrived at the seaside, out jumped all the children with a shout of joy. Down to the sands they raced, hand in hand \u2014 but nobody took Hari\u2019s hand.Nobody went near him.\r\nHari was angry. He went to a sandy corner near a rocky pool and sat down by himself. He took out his lunch and looked at it. It was a good lunch. There were two hard-boiled eggs, six jam sandwiches, three pieces of bread and butter, a ginger cake, and a bar of chocolate.\r\nHe would eat it all by himself. He wouldn't offer anything to anyone!\r\nJust as he was beginning on the eggs, he heard a hoarse voice near him. \u201cGood morning! I am so pleased to meet a boy like you.\u201d Hari turned around and stared in fright. Whatever do you think he saw?\r\nHari saw a monster crab walking sideways out of the pool. His eyes were on the ends of short stalks and he looked most queer. He held out his front claw to Hari. Hari put out his hand to shake the crab\u2019s claw, but to his surprise and anger the crab opened his pincers and nipped his hand so hard that the little boy yelled.\r\n\u201cAh, here is my good cousin,\u201d said the crab pleasantly, and, to Hari\u2019s horror, he saw a large sandy lobster crawling heavily out of the pool. Before the little boy could stop him the lobster took his hand in his great pincer-like claws and pinched it so hard that Hari yelled in pain. Then he stared at the pool in surprise, for, out came sandy-coloured shrimps and prawns, more crabs, and another large lobster and they pricked Hari till he was soon black and blue with their pinching.\r\n\u201cDon\u2019t you like it?\u201d said all the creatures in surprise.\r\n\u201cWhy, we were told you would love to see us because you were a champion pincher and pricker yourself. Come, come join in the fun!\u201d\r\nHari leapt to his feet, crying loudly. His lunch rolled into the pool, and when the crabs and lobsters saw it they ran to it and began to feast eagerly. Hari saw that they had forgotten him for a time, and he turned and ran for his life, tears streaming down his cheeks.\r\n\u201cThey only did to me what I keep doing to the other children,\u201d he thought. \u201cBut how it hurt! And how I hated those crabs and lobsters! I suppose the other children hate me too. Well, I jolly well shan\u2019t pinch or prick any more.\u201d\r\n",
+        "new_words": [
+            {
+                "word": "bruise",
+                "meaning": "injury by blow to body"
+            },
+            {
+                "word": "horrid",
+                "meaning": "terrible"
+            },
+            {
+                "word": "hoarse",
+                "meaning": "rough and deep sounding"
+            },
+            {
+                "word": "pincer",
+                "meaning": "gripping tool"
+            },
+            {
+                "word": "stalk",
+                "meaning": "main stem"
+            },
+            {
+                "word": "nipped",
+                "meaning": "pinched"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Why did all the children hate Hari?\n(i) Because he would not talk to anyone.\n(ii) Because he always pinched them.\n(iii) Because he loved stealing their food.",
+                "answer": "(ii) Because he always pinched them."
+            },
+            {
+                "difficulty": "",
+                "question": "\u201cNobody took Hari\u2019s hand. Nobody went near him. Nobody played with him.\u201d This shows that Hari had\n(i) many friends.\n(ii) few friends.\n(iii) no friends",
+                "answer": "(iii) no friend"
+            },
+            {
+                "difficulty": "",
+                "question": "Which of the following actions would make a friendly person? Write them down.\n\u2022 Respecting other people.\n\u2022 Eating a small child\u2019s tiffin.\n\u2022 Calling people rude names.\n\u2022 Pushing a smaller boy and making him cry.\n\u2022 Being helpful to everyone.\n\u2022 Helping your classmates in school.\n\u2022 Mocking at friends and hurting their feelings.\n\u2022 Protecting a weaker person",
+                "answer": "The actions which make a friendly person are\n\u2022 Respecting other people.\n\u2022 Being helpful to everyone.\n\u2022 Helping your classmates in school.\n\u2022 Protecting a weaker person."
+            },
+            {
+                "difficulty": "",
+                "question": "Hari was pinched till he was black and blue. \u2018Black and blue\u2019 means\n(i) Hari fell down in pain.\n(ii) there were bruises on his body.\n(iii) Hari painted himself in colours.\n(iv) Hari had a black and blue shirt",
+                "answer": "Black and blue means there were bruises on his body"
+            },
+            {
+                "difficulty": "",
+                "question": "\u2018I shan\u2019t pinch anyone anymore\u2019. Shan\u2019t means.\n(i) shall\n(ii) should\n(iii) shall not\n(iv) will not",
+                "answer": "Shan\u2019t means shall not"
+            },
+            {
+                "difficulty": "",
+                "question": "Give the full forms of\nwon\u2019t ______________________\nweren\u2019t ________________________\nwouldn\u2019t ______________________\ncouldn\u2019t _______________________",
+                "answer": "won\u2019t will not\nweren\u2019t were not\nwouldn\u2019t would not\ncouldn\u2019t could not"
+            },
+            {
+                "difficulty": "",
+                "question": "A girl was sitting quietly beside him. Hari leapt to his feet, crying loudly.\nThe words quietly and loudly tell us how an action is being done.\nFind five more words ending in which denote how something is done\n",
+                "answer": "(i) bravely\n(ii) neatly\n(iii) softly\n(iv) quickly\n(v) boldly"
+            },
+            {
+                "difficulty": "",
+                "question": "Complete the blanks with rhyming words of the following and practice aloud.\nbruise c ____________\ncarriage m ___________\nprawn d ____________\ncreatures fe_____________\nteachers pr____________\nvowed c_____________",
+                "answer": "bruise choose\ncarriage marriage\nprawn dawn\ncreatures features\nteachers preachers\nvowed cloud"
+            },
+            {
+                "difficulty": "",
+                "question": "How did the seaside creatures, the crab, the lobster etc. teach Hari a lesson? Write in a few lines.\n_________________________\n_________________________",
+                "answer": "The seaside creatures, the crab, the lobster pinched Hari with their pincer- like claws. They pinched him until he\nbecame black and blue and cried in pain. From this incident he realised they did what he had been doing to other\nchildren. He came to know the pain of being pinched by others. He took a vow not to pinch or prick other children\nanymore"
+            },
+            {
+                "difficulty": "",
+                "question": "The seaside creatures, the crab, the lobster pinched Hari with their pincer- like claws. They pinched him until he\nbecame black and blue and cried in pain. From this incident he realised they did what he had been doing to other\nchildren. He came to know the pain of being pinched by others. He took a vow not to pinch or prick other children\nanymore",
+                "answer": "(i) Hari was an unpopular boy.\n(ii) The boys and girls went to the seaside for a picnic.\n(iii) He saw a big crab coming towards him.\n(iv) I found an empty bottle, floating in the water.\n(v) The sea creatures ate his food."
+            }
+        ]
     },
     {
         "id": 38,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Sing a Song of People",
         "prologue": "",
-        "content": "\nSing a song of people\nWalking fast or slow;\nPeople in the city,\nUp and down they go.\n\nPeople on the side walk,\nPeople on the bus;\nPeople passing, passing,\nIn back and front of us.\n\nPeople on the subway\nUnderneath the ground;\nPeople riding taxis\nRound and round and round.\n\nPeople with their hats on,\nGoing in the doors;\nPeople with umbrellas\nWhen it rains and pours.\n\nPeople in tall buildings\nAnd in stores below;\nRiding elevators\nUp and down they go.\n\nPeople walking singly,\nPeople in a crowd;\nPeople saying nothing,\nPeople talking loud.\n\nPeople laughing, smiling,\nGrumpy people too;\nPeople who just hurry\nAnd never look at you!\n\nSing a song of people\nWho like to come and go;\nSing of city people\nYou see but never know!\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nSing a song of people\r\nWalking fast or slow;\r\nPeople in the city,\r\nUp and down they go.\r\n\r\nPeople on the side walk,\r\nPeople on the bus;\r\nPeople passing, passing,\r\nIn back and front of us.\r\n\r\nPeople on the subway\r\nUnderneath the ground;\r\nPeople riding taxis\r\nRound and round and round.\r\n\r\nPeople with their hats on,\r\nGoing in the doors;\r\nPeople with umbrellas\r\nWhen it rains and pours.\r\n\r\nPeople in tall buildings\r\nAnd in stores below;\r\nRiding elevators\r\nUp and down they go.\r\n\r\nPeople walking singly,\r\nPeople in a crowd;\r\nPeople saying nothing,\r\nPeople talking loud.\r\n\r\nPeople laughing, smiling,\r\nGrumpy people too;\r\nPeople who just hurry\r\nAnd never look at you!\r\n\r\nSing a song of people\r\nWho like to come and go;\r\nSing of city people\r\nYou see but never know!\r\n",
+        "new_words": [
+            {
+                "word": "subway",
+                "meaning": "underground passage for people to cross"
+            },
+            {
+                "word": "underneath",
+                "meaning": "below"
+            },
+            {
+                "word": "elevators",
+                "meaning": "lift"
+            },
+            {
+                "word": "grumpy",
+                "meaning": "ill-tempered"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Which modes of transport do the people use to move around in the city?",
+                "answer": "To move around in the city, people use buses, taxis, cars, scooters, autos, cycles, etc"
+            },
+            {
+                "difficulty": "",
+                "question": "What are the things that the people carry with them, while moving around?",
+                "answer": "The things that people carry with them while moving around are hats, umbrellas, briefcases, handbags, etc"
+            },
+            {
+                "difficulty": "",
+                "question": "Where all do you find these very busy people?",
+                "answer": "I find these busy people on roads, on sidewalks, on subways, in lifts, in stores, at bus stops, etc."
+            },
+            {
+                "difficulty": "",
+                "question": "Where have you seen crowds of people?",
+                "answer": "In and around temples, railway stations, bus stops, hospitals, cinema halls, shopping malls, fairs, parties, etc., are the\nplaces where I have seen crowds of people."
+            },
+            {
+                "difficulty": "",
+                "question": "Why do you think all these people are in a hurry?",
+                "answer": "People have to do a lot of work in a limited time. Hence, they are in a hurry"
+            },
+            {
+                "difficulty": "",
+                "question": "Let\u2019s write the opposites of the following words.\nslow ___________ up _________\nback ____________ tall __________\nbelow ___________ crowd ___________\nloud ____________ go _______",
+                "answer": "slow fast\nback front\nloud quiet\nup down\ntall short\ncrowd alone\ngo come"
+            }
+        ]
     },
     {
         "id": 39,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Poem",
         "title": "Malu Bhalu",
         "prologue": "",
-        "content": "\nHigh up in an icy lair\nLived a little polar bear\nSnow white, snow bright was her mane,\nMalu Bhalu was her name.\n\nVery soon our Malu Bhalu\nLearnt the things her parents knew.\nFish to catch, big and small...\nMalu was a clever girl.\n\nMalu said to her mother one day:\nMa, I\u2019m going far out to play.\nI want to see the things that lie\n\nThere beyond the big blue sky.\nA little patience, child, said Mum,\nIn the summer when next it comes.\nSummer?... Patience?... What a test!\nMalu simply could not rest.\n\nFirst things first! Malu\u2019s mum\nClasped Malu tight within her arms.\nThen she said \u2014 her voice was firm\nNow my dear you\u2019ll have to swim.\n\nBut Ma! said Malu, what do I know?\nHow will I? I\u2019ve never swum before!\nDon\u2019t worry dear, said Malu\u2019s mother,\nDo as I do, that\u2019s all, she advised her.\n\nShe had no choice, no other way,\nMalu had to swim that day.\nTight she gripped her mother\u2019s hand,\nInto the water splash! to land.\n\nBrave mother\u2019s brave young daughter!\nDoubt and fear she left behind her.\nMalu swam with all her might,\nIt didn't matter wrong or right.\n\nBut swimming came so naturally,\nHer mother knew this and all could see.\nFearless was Malu, this she knew,\nNot just brave, but special too.\n",
-        "new_words": [],
-        "exercises": []
+        "content": "\r\nHigh up in an icy lair\r\nLived a little polar bear\r\nSnow white, snow bright was her mane,\r\nMalu Bhalu was her name.\r\n\r\nVery soon our Malu Bhalu\r\nLearnt the things her parents knew.\r\nFish to catch, big and small...\r\nMalu was a clever girl.\r\n\r\nMalu said to her mother one day:\r\nMa, I\u2019m going far out to play.\r\nI want to see the things that lie\r\n\r\nThere beyond the big blue sky.\r\nA little patience, child, said Mum,\r\nIn the summer when next it comes.\r\nSummer?... Patience?... What a test!\r\nMalu simply could not rest.\r\n\r\nFirst things first! Malu\u2019s mum\r\nClasped Malu tight within her arms.\r\nThen she said \u2014 her voice was firm\r\nNow my dear you\u2019ll have to swim.\r\n\r\nBut Ma! said Malu, what do I know?\r\nHow will I? I\u2019ve never swum before!\r\nDon\u2019t worry dear, said Malu\u2019s mother,\r\nDo as I do, that\u2019s all, she advised her.\r\n\r\nShe had no choice, no other way,\r\nMalu had to swim that day.\r\nTight she gripped her mother\u2019s hand,\r\nInto the water splash! to land.\r\n\r\nBrave mother\u2019s brave young daughter!\r\nDoubt and fear she left behind her.\r\nMalu swam with all her might,\r\nIt didn't matter wrong or right.\r\n\r\nBut swimming came so naturally,\r\nHer mother knew this and all could see.\r\nFearless was Malu, this she knew,\r\nNot just brave, but special too.\r\n",
+        "new_words": [
+            {
+                "word": "lair",
+                "meaning": "wild animal's lying place"
+            },
+            {
+                "word": "mane",
+                "meaning": "long hair on the neck of some animals"
+            },
+            {
+                "word": "clasped",
+                "meaning": "encircle, hold closely"
+            },
+            {
+                "word": "might",
+                "meaning": "great strength"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Where did the polar bear live with her family?",
+                "answer": "The polar bear lived with her family in an icy lair"
+            },
+            {
+                "difficulty": "",
+                "question": "What did Malu learn to do from her parents?",
+                "answer": "She learnt fishing and swimming from her parents"
+            },
+            {
+                "difficulty": "",
+                "question": "Where did Malu want to travel?",
+                "answer": "Malu wanted to travel beyond the big blue sky"
+            },
+            {
+                "difficulty": "",
+                "question": "What was it that Malu\u2019s parents wanted her to learn?",
+                "answer": "Malu\u2019s parents wanted her to learn the art of swimming."
+            },
+            {
+                "difficulty": "",
+                "question": "Was Malu scared to swim? Did she learn it easily?",
+                "answer": "Yes, Malu was scared to swim. Yes, she learnt it easily."
+            },
+            {
+                "difficulty": "",
+                "question": "Read the last two stanzas of the poem. Whom does \u2018she\u2019 stand for in both?",
+                "answer": "\u2018She\u2019 stands for Malu Bhalu in the first stanza, and in the second stanza \u2018she\u2019 stands for her mother."
+            },
+            {
+                "difficulty": "",
+                "question": "Read the following passage carefully.\nOne day Meena plucks a mango and brings it home. Her grandmother gives the larger piece to Raju because he\nis a boy. Meena protests. After all, she brought the mango and she is the elder of the two. She insists she has a\ngreater right over her share. Her father comes to her help and divides the mango equally.\nNow answer the questions.\n(i) Who brought the mango home?\n(ii) Why did Meena\u2019s grandmother give a larger piece to Raju?\n(iii) Who do you think should have got the larger piece",
+                "answer": "(i) Meena brought the mango home.\n(ii) Her grandmother gave a larger piece to Raju because he is a\n(iii) According to me, Meena should have got the larger piece."
+            }
+        ]
     },
     {
         "id": 40,
-        "difficulty": null,
-        "type": "",
+        "difficulty": 1,
+        "type": "Story",
         "title": "Who will be Ningthou?",
-        "prologue": "",
-        "content": "\nLong, long ago, in the land of Kangleipak in Manipur, there lived a Ningthou and a Leima. They were loved dearly by the people.\nThe Ningthou and Leima, on their part, never stopped thinking about their meeyam, their people. \u201cOur meeyam should be happy,\u201d they said.\nThe people were not the only ones who loved their Ningthou and Leima. The birds and animals too loved them. The Ningthou and Leima always said: \u201cEverybody in Kangleipak should live in peace. Not only the people, but the birds, animals and trees.\u201d\nTheir beloved king and queen had three sons: Sanajaoba, Sanayaima and Sanatomba.\nTwelve years later, a daughter was born. She was named Sanatombi. She was a lovely child, soft and beautiful inside. She was loved by one and all.\nThe years went by, and the children grew up well. And then one day, the Ningthou called all his ministers and said: \u201cIt is now time to decide the Tunggi Ningthou, the future king.\u201d\nThe ministers were shocked. \u201cBut O Ningthou, what is there to decide? Sanajaoba, your eldest son, will be our future king.\u201d\n\u201cWell,\u201d the Ningthou replied. \u201cThat\u2019s how it happened in the old days. The eldest son always became the king. But times have changed. So let us select a king who is most worthy of becoming a king.\u201d\n\u201cWe will have a contest to select the future king,\u201d the Leima said. And so, in the land of Kangleipak, there was a contest, a horse race. Whoever reached the khongnang, the banyan tree, first would be declared Tunggi Ningthou.\nBut then, a strange thing happened. Sanajaoba, Sanayaima and Sanatomba all three of them finished the race together. They were expert riders and all three reached the finish line at the same time!\nThere was great excitement. \u201cLook at them!\u201d the people shouted. \u201cShagol thauba nupa, such fine horsemen!\u201d\nBut one question remained: Who would be the Tunggi Ningthou?\nThe Ningthou and Leima turned to their sons. The Ningthou said, \u201cSanajaoba, Sanayaima and Sanatomba, you have proved that you are fine horsemen. Do something different each one of you, so that we can decide who will be Tunggi Ningthou.\u201d\nSuddenly, Sanajaoba mounted his horse and held his spear straight in front of him. He looked around. There was a hush among people. \u201cWhat is Sanajaoba, the eldest, going to do? They thought to themselves.\nSanajaoba then looked at the huge khongnang standing majestically in the distance. He pierced the tree and jumped his horse right through it!\n\u201cBravo! Bravo!\u201d The people shouted. \u201cThouro! Thouro!\u201d And then they fell silent.\nNow it was the turn of the second son, Sanayaima. What would he do? Sanayaima too looked at the khongnang as he mounted his horse. Then he too rode towards the tree, harder and harder. The people watched in silence, afraid even to breathe. When he was really close, he urged his horse to jump. Higher and higher the horse rose until horse and rider jumped clear over the huge tree and landed on the other side in a wonderful motion.\nThe people breathed in relief and said in unison: \u201cPhajei ! Phajei ! Wonderful ! Wonderful !\nAnd now, it was the turn of the youngest son, Sanatomba. He, too, rode his horse towards the khongnang and, before anybody knew what was happening, uprooted it. Triumphantly he carried the tree to the Ningthou and Leima and laid it at their feet! \nShouts of Thouro ! Thouro ! Phajei ! Phajei !\u201d filled the mountains.\nThe people grew restless. Why were the Ningthou and the Leima taking so long to make the announcement? They craned their necks to see what was happening.\nThe Ningthou and Leima were watching Sanatombi, their five year-old daughter. She looked sad and lonely. She stared at the khongnang which lay dead by the throne. Birds flapped worriedly around, searching for their homes in the tree. Sanatombi walked up to the khongnang and whispered, \u201cThe khongnang is dead. It was hurt by the spear and now it is dead.\u201d\nThe people were all attention. The Ningthou stood up. He looked at the three boys. He looked at the little girl. He turned to the people. \u201cIf anybody is worthy of becoming the ruler,\u201d he said, \u201cit is little Sanatombi. It was she who told us to look at the soul of the khongnang. Sanatombi feels the pain of others. She feels the pain of the people, the animals, the birds, the trees.\u201d\n\u201dI declare Sanatombi the future Leima of Kangleipak,\u201d\nthe Ningthou said. A silence fell. Everyone turned to look at the little girl, their future queen. There she stood, all of five, like a small khongnang, with birds flying all around her. They sat on her shoulders and on her head. She held out her hands full of grain and the birds flapped about her, pecking at the food.\n\u201cA Leima is one who doesn\u2019t hurt anybody in the kingdom.\u201d\n",
-        "new_words": [],
-        "exercises": []
+        "prologue": "A king is called a Ningthou\r\nand a queen is called a Leima\r\nin Manipuri. This is a story\r\nfrom Manipur about what qualities\r\nmake a good ruler",
+        "content": "\r\nLong, long ago, in the land of Kangleipak in Manipur, there lived a Ningthou and a Leima. They were loved dearly by the people.\r\nThe Ningthou and Leima, on their part, never stopped thinking about their meeyam, their people. \u201cOur meeyam should be happy,\u201d they said.\r\nThe people were not the only ones who loved their Ningthou and Leima. The birds and animals too loved them. The Ningthou and Leima always said: \u201cEverybody in Kangleipak should live in peace. Not only the people, but the birds, animals and trees.\u201d\r\nTheir beloved king and queen had three sons: Sanajaoba, Sanayaima and Sanatomba.\r\nTwelve years later, a daughter was born. She was named Sanatombi. She was a lovely child, soft and beautiful inside. She was loved by one and all.\r\nThe years went by, and the children grew up well. And then one day, the Ningthou called all his ministers and said: \u201cIt is now time to decide the Tunggi Ningthou, the future king.\u201d\r\nThe ministers were shocked. \u201cBut O Ningthou, what is there to decide? Sanajaoba, your eldest son, will be our future king.\u201d\r\n\u201cWell,\u201d the Ningthou replied. \u201cThat\u2019s how it happened in the old days. The eldest son always became the king. But times have changed. So let us select a king who is most worthy of becoming a king.\u201d\r\n\u201cWe will have a contest to select the future king,\u201d the Leima said. And so, in the land of Kangleipak, there was a contest, a horse race. Whoever reached the khongnang, the banyan tree, first would be declared Tunggi Ningthou.\r\nBut then, a strange thing happened. Sanajaoba, Sanayaima and Sanatomba all three of them finished the race together. They were expert riders and all three reached the finish line at the same time!\r\nThere was great excitement. \u201cLook at them!\u201d the people shouted. \u201cShagol thauba nupa, such fine horsemen!\u201d\r\nBut one question remained: Who would be the Tunggi Ningthou?\r\nThe Ningthou and Leima turned to their sons. The Ningthou said, \u201cSanajaoba, Sanayaima and Sanatomba, you have proved that you are fine horsemen. Do something different each one of you, so that we can decide who will be Tunggi Ningthou.\u201d\r\nSuddenly, Sanajaoba mounted his horse and held his spear straight in front of him. He looked around. There was a hush among people. \u201cWhat is Sanajaoba, the eldest, going to do? They thought to themselves.\r\nSanajaoba then looked at the huge khongnang standing majestically in the distance. He pierced the tree and jumped his horse right through it!\r\n\u201cBravo! Bravo!\u201d The people shouted. \u201cThouro! Thouro!\u201d And then they fell silent.\r\nNow it was the turn of the second son, Sanayaima. What would he do? Sanayaima too looked at the khongnang as he mounted his horse. Then he too rode towards the tree, harder and harder. The people watched in silence, afraid even to breathe. When he was really close, he urged his horse to jump. Higher and higher the horse rose until horse and rider jumped clear over the huge tree and landed on the other side in a wonderful motion.\r\nThe people breathed in relief and said in unison: \u201cPhajei ! Phajei ! Wonderful ! Wonderful !\r\nAnd now, it was the turn of the youngest son, Sanatomba. He, too, rode his horse towards the khongnang and, before anybody knew what was happening, uprooted it. Triumphantly he carried the tree to the Ningthou and Leima and laid it at their feet! \r\nShouts of Thouro ! Thouro ! Phajei ! Phajei !\u201d filled the mountains.\r\nThe people grew restless. Why were the Ningthou and the Leima taking so long to make the announcement? They craned their necks to see what was happening.\r\nThe Ningthou and Leima were watching Sanatombi, their five year-old daughter. She looked sad and lonely. She stared at the khongnang which lay dead by the throne. Birds flapped worriedly around, searching for their homes in the tree. Sanatombi walked up to the khongnang and whispered, \u201cThe khongnang is dead. It was hurt by the spear and now it is dead.\u201d\r\nThe people were all attention. The Ningthou stood up. He looked at the three boys. He looked at the little girl. He turned to the people. \u201cIf anybody is worthy of becoming the ruler,\u201d he said, \u201cit is little Sanatombi. It was she who told us to look at the soul of the khongnang. Sanatombi feels the pain of others. She feels the pain of the people, the animals, the birds, the trees.\u201d\r\n\u201dI declare Sanatombi the future Leima of Kangleipak,\u201d\r\nthe Ningthou said. A silence fell. Everyone turned to look at the little girl, their future queen. There she stood, all of five, like a small khongnang, with birds flying all around her. They sat on her shoulders and on her head. She held out her hands full of grain and the birds flapped about her, pecking at the food.\r\n\u201cA Leima is one who doesn\u2019t hurt anybody in the kingdom.\u201d\r\n",
+        "new_words": [
+            {
+                "word": "peace",
+                "meaning": "quiet"
+            },
+            {
+                "word": "worthy",
+                "meaning": "deserving of"
+            },
+            {
+                "word": "contest",
+                "meaning": "competition"
+            },
+            {
+                "word": "spear",
+                "meaning": "hunter\u2019s weapon"
+            },
+            {
+                "word": "triumphantly",
+                "meaning": "victoriously"
+            }
+        ],
+        "exercises": [
+            {
+                "difficulty": "",
+                "question": "Name the place in Manipur where the Ningthou and Leima ruled.",
+                "answer": "Kangleipak is the place in Manipur where the Ningthou and Leima ruled."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the people of Kangleipak love their king and queen?",
+                "answer": "The people of Kangleipak loved their king and queen because they always wanted them to be happy and live in peace."
+            },
+            {
+                "difficulty": "",
+                "question": "Why did the Ningthou want to choose a future king?",
+                "answer": "Ningthou grew old. Hence, he wanted to choose a future king"
+            },
+            {
+                "difficulty": "",
+                "question": "How did the king want to select their future king?",
+                "answer": "The king wanted to select their future king by conducting a contest to know who was most worthy of becoming a good\nruler."
+            },
+            {
+                "difficulty": "",
+                "question": "What kind of child was Sanatomb",
+                "answer": "Sanatombi, the daughter of Ningthou and Leima, was lovely, soft and beautiful inside"
+            },
+            {
+                "difficulty": "",
+                "question": "Have you ever seen an animal or a bird in pain? What did you do?",
+                "answer": "Once I saw a cat being hit by a running car. The car driver was in a hurry and injured it. He did not even pay attention\nto it. I was very upset to see the cat in misery. I went to the injured cat, brought it to my home and gave first aid. It\nstopped crying only after I treated him and patted him for a long time."
+            },
+            {
+                "difficulty": "",
+                "question": "Where is Manipur on the map of India?",
+                "answer": "Manipur is situated in the northeastern part of India."
+            },
+            {
+                "difficulty": "",
+                "question": "Who do you think should have been made the future king?\nSanajaoba, the one who jumped through the tree.\nSanayaima, the one who jumped over the tree.\nSanatomba, the one who uprooted the tree.\nWhy do you think so?\nWho was made the future queen and why?",
+                "answer": "A future king should be judicious and considerate. But the sons of Ningthou believed only in showing their strength\nwhich was not important. Sanatombi was declared a future queen because she had all the qualities of a good ruler. She\ncould feel the pain of not only people but also animals, birds and trees."
+            },
+            {
+                "difficulty": "",
+                "question": "Write the meanings of the following in English.\nTunggi Ningthou \u2013 _________________\nThouro! Thouro! \u2013 __________________\nPhajei! Phajei! \u2013 __________________\nShagol thauba nupa! \u2013 __________________",
+                "answer": "Write the meanings of the following in English.\nTunggi Ningthou \u2013 _________________\nThouro! Thouro! \u2013 __________________\nPhajei! Phajei! \u2013 __________________\nShagol thauba nupa! \u2013 __________________"
+            }
+        ]
     }
 ]

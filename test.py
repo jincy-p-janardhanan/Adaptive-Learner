@@ -26,8 +26,8 @@ output = model.generate(
     input_ids, 
     attention_mask=attention_mask,
     max_length=400, 
-    temperature=0.7,  # Adjust sampling temperature
-    do_sample=True,   # Enable sampling
+    temperature=0.7,  
+    do_sample=True,
     top_k=50,
     top_p=0.95
 )

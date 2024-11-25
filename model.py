@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingA
 import torch
 import os
 
-# Load the dataset (assuming structured JSON dataset)
+# Load the dataset
 dataset = load_dataset('json', data_files='dataset.json')
 print(len(dataset['train']))
 
@@ -52,7 +52,7 @@ tokenized_outputs = tokenizer(
 tokenized_dataset = Dataset.from_dict({ 
     "input_ids": tokenized_inputs["input_ids"],
     "attention_mask": tokenized_inputs["attention_mask"],
-    "labels": tokenized_outputs["input_ids"],  # Masked labels
+    "labels": tokenized_outputs["input_ids"],  
     "labels_attention_mask": tokenized_outputs["attention_mask"]
 })
 

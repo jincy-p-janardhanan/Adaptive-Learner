@@ -1,2 +1,2 @@
 # Adaptive-Learner
-Personalized Adaptive Learning System
+Adaptive Learning Application for Learning Middle-School English

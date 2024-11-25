@@ -8,10 +8,12 @@ Adaptive Learning Application for Learning Middle-School English
    ```
    python -m venv venv
    source venv/bin/activate
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
-   
-4. To train and test the model, please generate a hugging face token and add it to the environment as `HF_TOKEN`. You can use the following command.
+   To deactivate the environment, you can use `deactivate` command later.
+
+4. To train and test the model, please generate a hugging face token and add it to the environment as `HF_TOKEN`. You may also have to accept the license agreements for the model. 
+You can use the following command.
    ```
    export HF_TOKEN="your-token-here"
    ```

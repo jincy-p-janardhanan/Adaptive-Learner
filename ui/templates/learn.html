@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Poem</title>
+    <title>{{ title }}</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -97,9 +97,9 @@
 </head>
 
 <body>
-    <div class="content-box">
+    <div class="content-box" style="white-space: pre-line; line-height: 1.6;">
         <h2>{{  title  }}</h2>
-        <pre>{{ content }}</pre>
+        <p>{{ content }}</p>
     </div>
 
     <div>

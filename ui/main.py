@@ -147,16 +147,37 @@ def learn():
         
     global gpt4allmodel
     items = ["poem", "story", "drama"]
-    choice = {random.choice(items)}
-    content_prompt = (f"Generate a response in the the following format. No need of any styling:"
-                        "Title: title of the {choice}"
-                        "{choice}: Generate one  {choice} of difficulty level {level} out of 10 for a beginner English learner. If it's a poem, format it clearly with each line separated by a newline."
-                        )
-    response = gpt4allmodel.generate(content_prompt, max_tokens=1024)
-    title = model.extract_section(response, "Title:", f"{choice}")
-    content = model.extract_section(response, f"{choice}")
+    choice = random.choice(items)
+    
+    # Refine the prompt to ensure consistent output
+    content_prompt = (f"Generate a {choice} with a title of difficulty level {level} out of 10 for a beginner English learner. "
+                      "Only include the title (prefixed with '**Title:**') and the content, separated by a newline. "
+                      "Do not include explanations or extra text.")
+    
+    # Generate response
+    response = gpt4allmodel.generate(content_prompt, max_tokens=1024).strip()
 
-    return render_template('learn.html', title=title, content = content, current_level = state["current_level"])
+    # Log the response for debugging
+    print("Generated Response:", repr(response))
+
+    # Parse the title and content
+    lines = response.split("\n", 1)  # Split only once to separate title and content
+    title_line = lines[0].strip() if lines else ""
+    content = lines[1].strip() if len(lines) > 1 else ""
+
+    # Extract the title after '**Title:**'
+    if title_line.startswith("**Title:**"):
+        title = title_line.replace("**Title:**", "").strip('" ').strip()
+    else:
+        # Handle cases where title is missing or misformatted
+        title = "Untitled"
+
+    # Log extracted title and content for debugging
+    print("Extracted Title:", title)
+    print("Extracted Content:", repr(content))
+
+    return render_template('learn.html', title=title, content=content, current_level=state["current_level"])
+
 
 if __name__ == '__main__':
     app.run(debug=True)

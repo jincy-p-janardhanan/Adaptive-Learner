@@ -98,6 +98,9 @@ def home():
 @app.route('/quiz', methods=['GET'])
 def quiz():
     level = request.args.get('level', default=1, type=int)
+    if level != state["current_level"]:
+        state["current_level"] = level
+    print(level)
     difficulty_index = 0
     state["current_level"] = level
     state["difficulty_index"] = difficulty_index
@@ -128,14 +131,7 @@ def submit():
             difficulty_level = question_levels[state["difficulty_index"]]
             state["output"] = model.run(state["current_level"], difficulty_level)
     else:
-        global gpt4allmodel
-        items = ["poem", "story", "drama"]
-        content_prompt = (f"Generate one {random.choice(items)} "
-                          f"of difficulty level {question_levels[state["difficulty_index"]]} out of 10 for a beginner English learner. "
-                          "If it's a poem, format it clearly with each line separated by a newline.")
-
-        response = gpt4allmodel.generate(content_prompt, max_tokens=1024)
-        render_template('learn.html', content = response, current_level = question_levels[state["difficulty_index"]])
+        return redirect("/learn")
     
     # Prepare a response indicating if the user leveled up or not
     return render_template('quiz.html', output=state["output"], 
@@ -143,9 +139,24 @@ def submit():
                            current_difficulty = question_levels[state["difficulty_index"]])
 
 
-# @app.route('/learn', methods=['GET'])
-# def learn():
-#     return render_template('learn.html')
+@app.route('/learn', methods=['GET'])
+def learn():
+    level = request.args.get('level', default=1, type=int)
+    if level != state["current_level"]:
+        state["current_level"] = level
+        
+    global gpt4allmodel
+    items = ["poem", "story", "drama"]
+    choice = {random.choice(items)}
+    content_prompt = (f"Generate a response in the the following format. No need of any styling:"
+                        "Title: title of the {choice}"
+                        "{choice}: Generate one  {choice} of difficulty level {level} out of 10 for a beginner English learner. If it's a poem, format it clearly with each line separated by a newline."
+                        )
+    response = gpt4allmodel.generate(content_prompt, max_tokens=1024)
+    title = model.extract_section(response, "Title:", f"{choice}")
+    content = model.extract_section(response, f"{choice}")
+
+    return render_template('learn.html', title=title, content = content, current_level = state["current_level"])
 
 if __name__ == '__main__':
     app.run(debug=True)

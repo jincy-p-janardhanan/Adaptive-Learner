@@ -54,23 +54,27 @@
             console.log('Quiz level initialized to 1');
         }
 
-        function startQuiz() {
+        function loadLesson() {
             // Get the current level
             const currentLevel = parseInt(localStorage.getItem('currentLevel'), 10);
             const prevLevel = parseInt(localStorage.getItem('prevLevel'), 10);
 
             // Check if the user is eligible to take the quiz
             if (currentLevel == prevLevel) {
-                window.location.href = '/learn';
-            } else {
-                // Otherwise, start the quiz
-                window.location.href = `/quiz?level=${currentLevel}`;
-            }
+                window.location.href = `/learn?level=${currentLevel}`;
+            } 
         }
+        function updateQuizLink() {
+        const currentLevel = localStorage.getItem('currentLevel');
+        const quizLink = document.getElementById('quizLink');
+        quizLink.href = `/quiz?level=${currentLevel}`;
+    }
+    document.addEventListener('DOMContentLoaded',updateQuizLink);
+    document.addEventListener('DOMContentLoaded',loadLesson);
     </script>
 </head>
 <body>
     <h1>Start Quiz!</h1>
-    <a href="/quiz" class="go-circle">GO</a>
+    <a id="quizLink" href="/quiz" class="go-circle">GO</a>
 </body>
 </html>

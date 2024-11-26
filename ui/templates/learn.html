@@ -81,28 +81,24 @@
     </style>
 
 <script>
-    // This script will run once the document content is loaded
     document.addEventListener('DOMContentLoaded', () => {
-        // Retrieve the current level value passed from the backend
-        const currentLevelFromBackend = {{ current_level }};  // Use the templating engine to inject the value
-
-        // Check if the currentLevelFromBackend is valid
+        const currentLevelFromBackend = `${current_level}`;
         if (currentLevelFromBackend !== undefined && currentLevelFromBackend !== null) {
-            // Update localStorage with the new level
+            localStorage.setItem('prevLevel', localStorage.getItem('currentLevel'));
             localStorage.setItem('currentLevel', currentLevelFromBackend);
             console.log('Current Level set to:', currentLevelFromBackend);
+            console.log('Previous Level set to:', currentLevelFromBackend);
         } else {
             console.error('current_level variable is not defined or invalid');
         }
     });
 </script>
+
 </head>
 
 <body>
     <div class="content-box">
-        <div class="level-display">
-            Story
-        </div>
+        <h2>{{  title  }}</h2>
         <pre>{{ content }}</pre>
     </div>
 

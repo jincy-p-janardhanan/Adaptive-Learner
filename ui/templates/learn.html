@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Poem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .content-box {
+            position: relative;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff8dc;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-wrap: break-word;
+        }
+
+        .level-display {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #f37e7e;
+            color: #f8f7f7;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .poem-box {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #d0e7fc;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-box p,
+        .poem-box p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1c86ee;
+        }
+    </style>
+
+<script>
+    // This script will run once the document content is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        // Retrieve the current level value passed from the backend
+        const currentLevelFromBackend = {{ current_level }};  // Use the templating engine to inject the value
+
+        // Check if the currentLevelFromBackend is valid
+        if (currentLevelFromBackend !== undefined && currentLevelFromBackend !== null) {
+            // Update localStorage with the new level
+            localStorage.setItem('currentLevel', currentLevelFromBackend);
+            console.log('Current Level set to:', currentLevelFromBackend);
+        } else {
+            console.error('current_level variable is not defined or invalid');
+        }
+    });
+</script>
+</head>
+
+<body>
+    <div class="content-box">
+        <div class="level-display">
+            Story
+        </div>
+        <pre>{{ content }}</pre>
+    </div>
+
+    <div>
+        <button onclick="location.href='/quiz?level={{  current_level  }}'">Take Quiz</button>
+    </div>
+</body>
+
+</html>

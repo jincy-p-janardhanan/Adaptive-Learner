@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff; /* Light blue background */
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .go-circle {
+            width: 150px;
+            height: 150px;
+            background-color: #1e90ff; /* Dodger blue */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .go-circle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .go-circle:active {
+            transform: scale(1.05);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        if (!localStorage.getItem('currentLevel')) {
+            localStorage.setItem('currentLevel', 1);
+            localStorage.setItem('prevLevel', 0);
+            console.log('Quiz level initialized to 1');
+        }
+
+        function startQuiz() {
+            // Get the current level
+            const currentLevel = parseInt(localStorage.getItem('currentLevel'), 10);
+            const prevLevel = parseInt(localStorage.getItem('prevLevel'), 10);
+
+            // Check if the user is eligible to take the quiz
+            if (currentLevel == prevLevel) {
+                window.location.href = '/learn';
+            } else {
+                // Otherwise, start the quiz
+                window.location.href = `/quiz?level=${currentLevel}`;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Start Quiz!</h1>
+    <a href="/quiz" class="go-circle">GO</a>
+</body>
+</html>

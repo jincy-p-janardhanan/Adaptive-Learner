@@ -26,8 +26,9 @@ You can use the following command.
    python test.py
    ```
    
-5. To check the web application built using the GPT4All model,
+5. To check the web application built using the GPT4All model, go to the `ui` folder and `run main.py`
 
    ```
-   TO-BE-UPDATED-SOON.
+   cd ui
+   python main.py
    ```

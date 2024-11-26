@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            /* Light blue background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .content-box {
+            position: relative;
+            /* Enable positioning of inner elements */
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff8dc;
+            /* Light yellow */
+            border: 1px solid #e0e0e0;
+            /* Subtle border */
+            border-radius: 10px;
+            /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Soft shadow */
+            overflow-wrap: break-word;
+            /* Ensure content wraps */
+        }
+
+        .level-display {
+            position: absolute;
+            top: 20px;
+            /* Adjust for padding */
+            right: 20px;
+            /* Adjust for padding */
+            background-color: #f37e7e;
+            /* Light gray box for visibility */
+            color: #f8f7f7;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+        }
+
+        .questions-box,
+        .answer-box {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #d0e7fc;
+            /* Light blue background */
+            border: 1px solid #e0e0e0;
+            /* Subtle border */
+            border-radius: 10px;
+            /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Soft shadow */
+        }
+
+        .content-box p {
+            font-size: 1.2rem;
+            /* Slightly larger font size */
+            /* font-weight: bold; Make text bolder */
+            color: #333;
+            /* Ensure text is readable */
+            line-height: 1.6;
+            /* Increase line spacing for better readability */
+        }
+
+        .questions-box ol {
+            padding-left: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            /* Ensure padding is included in the width */
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #1e90ff;
+            /* Highlight input on focus */
+            box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+        }
+
+        button {
+            width: 100px;
+            padding: 10px;
+            background-color: #1e90ff;
+            /* Blue button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+            /* Align button to the left */
+        }
+
+        button:hover {
+            background-color: #1c86ee;
+            /* Slightly darker blue on hover */
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizDataElement = document.getElementById('quiz-data');
+
+            // Check if the element exists
+            if (!quizDataElement) {
+                console.error("Quiz data element not found!");
+                return;
+            }
+
+            const leveledUp = quizDataElement.hasAttribute('data-leveled-up')
+                ? quizDataElement.getAttribute('data-leveled-up') === 'true'
+                : false; // Default to false if not passed.
+
+            const newLevel = quizDataElement.hasAttribute('data-new-level')
+                ? parseInt(quizDataElement.getAttribute('data-new-level'), 10)
+                : 0; // Default to 0 if not passed.
+
+            const currentDifficulty = quizDataElement.hasAttribute('data-current-difficulty')
+                ? quizDataElement.getAttribute('data-current-difficulty')
+                : "easy"; // Default to "easy" if not passed.
+
+            // Debugging log to verify the values
+            console.log({ leveledUp, newLevel, currentDifficulty });
+
+            if (leveledUp && currentDifficulty == 0) {
+                // If the user leveled up, update the localStorage and redirect to the next level
+                localStorage.setItem('prevLevel', currentLevel);
+                localStorage.setItem('currentLevel', currentLevel + 1);
+                console.log('Level up! New level:', currentLevel + 1);
+
+                // Redirect to the new quiz level
+                window.location.href = `/quiz?level=${localStorage.getItem('currentLevel')}`;
+            } 
+        });
+
+        document.getElementById('quizForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission            
+            fetch('/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({ 'user_answer': userAnswer })
+            })
+
+
+
+                .then(response => response.json())
+                .then(data => {
+                    const currentLevel = parseInt(localStorage.getItem('currentLevel'), 10);
+                    const prevLevel = parseInt(localStorage.getItem('prevLevel'), 10);
+
+                    if (data.leveled_up) {
+                        // If the user leveled up, update the localStorage and redirect to the next level
+                        localStorage.setItem('prevLevel', currentLevel);
+                        localStorage.setItem('currentLevel', currentLevel + 1);
+                        console.log('Level up! New level:', currentLevel + 1);
+
+                        // Redirect to the new quiz level
+                        window.location.href = `/quiz?level=${localStorage.getItem('currentLevel')}`;
+                    } else {
+                        // If the user hasn't leveled up, update the prevLevel and display next question
+                        localStorage.setItem('prevLevel', currentLevel);
+
+                        // Check if user is stuck at the same level, if so, redirect to learn page
+                        if (currentLevel === prevLevel) {
+                            window.location.href = '/learn';
+                        } else {
+                            // Otherwise, continue to the next question
+                            console.log('Continue to the next difficulty:', data.current_difficulty);
+
+                            // Update the page with the new question
+                            document.querySelector('.level-display').textContent = `Level: ${data.new_level}`;
+                            document.querySelector('h1').textContent = 'Reading';
+                            document.querySelector('pre').textContent = data.output.content;
+                            document.querySelector('.questions-box p').textContent = data.output.questions;
+
+                            // Clear the previous answer input
+                            document.getElementById('user_answer').value = '';
+
+                            // Optionally, scroll to the top of the page after updating the question
+                            window.scrollTo(0, 0);
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Error during submission:', error);
+                });
+        });
+    </script>
+
+<body>
+    <div class="content-box">
+        <div class="level-display">
+            Level: {{ output['Level'] }}
+        </div>
+        <h1>Reading</h1>
+        <pre>{{ output['content'] }}</pre>
+    </div>
+
+    <div class="questions-box">
+        <h2>Questions:</h2>
+        <p>{{ output['questions']}}</p>
+    </div>
+
+    <div class="answer-box">
+        <form id="quizForm" action="/submit" method="post">
+            <!-- <label for="user_answer">Your Answer:</label> -->
+            <input type="text" id="user_answer" name="user_answer" placeholder="Type your answer here" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="quiz-data" data-leveled-up="{{ leveled_up }}" data-new-level="{{ new_level }}"
+        data-current-difficulty="{{ current_difficulty }}">
+    </div>
+
+</body>
